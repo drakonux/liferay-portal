@@ -1,0 +1,29 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "beta",
+					"label": "phase",
+					"name": "phase",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{"label": "Alpha", "value": "alpha"},
+							{"label": "Beta", "value": "beta"}
+						]
+					}
+				},
+				{
+					"dataType": "string",
+					"defaultValue": "#",
+					"label": "feedback-href",
+					"name": "feedbackHref",
+					"type": "text"
+				}
+			],
+			"label": "phase-banner-options"
+		}
+	]
+}

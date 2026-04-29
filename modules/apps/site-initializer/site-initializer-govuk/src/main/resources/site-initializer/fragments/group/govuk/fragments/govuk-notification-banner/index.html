@@ -1,0 +1,15 @@
+<div aria-labelledby="govuk-notification-banner-title-${fragmentEntryLinkNamespace}" class="govuk-notification-banner [#if configuration.type == 'success']govuk-notification-banner--success[/#if]" data-module="govuk-notification-banner" role="region" tabindex="-1">
+	<div class="govuk-notification-banner__header">
+		<h2 class="govuk-notification-banner__title" id="govuk-notification-banner-title-${fragmentEntryLinkNamespace}">
+			[#if configuration.type == 'success']Success[#else]Important[/#if]
+		</h2>
+	</div>
+	<div class="govuk-notification-banner__content">
+		<p class="govuk-notification-banner__heading" data-lfr-editable-id="banner-heading" data-lfr-editable-type="text">
+			You have 7 days left to send your application.
+		</p>
+		<div data-lfr-editable-id="banner-body" data-lfr-editable-type="rich-text">
+			<p>Contact <a href="#" class="govuk-notification-banner__link">the Borders and Control office</a> for help with your claim.</p>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,15 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"defaultValue": "true",
+					"label": "show-footer-links",
+					"name": "showLinks",
+					"type": "checkbox"
+				}
+			],
+			"label": "footer-options"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "primary",
+					"label": "style",
+					"name": "style",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{"label": "Primary (green)", "value": "primary"},
+							{"label": "Secondary (grey)", "value": "secondary"},
+							{"label": "Warning (red)", "value": "warning"},
+							{"label": "Start (with arrow)", "value": "start"}
+						]
+					}
+				},
+				{
+					"dataType": "string",
+					"defaultValue": "#",
+					"label": "href",
+					"name": "href",
+					"type": "text"
+				}
+			],
+			"label": "button-options"
+		}
+	]
+}

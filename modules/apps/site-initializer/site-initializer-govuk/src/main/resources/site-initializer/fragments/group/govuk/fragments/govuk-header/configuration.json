@@ -1,0 +1,22 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "/",
+					"label": "home-href",
+					"name": "homeHref",
+					"type": "text"
+				},
+				{
+					"defaultValue": "true",
+					"label": "show-service-name",
+					"name": "showServiceName",
+					"type": "checkbox"
+				}
+			],
+			"label": "header-options"
+		}
+	]
+}

@@ -1,0 +1,69 @@
+.govuk-notification-banner {
+	-webkit-font-smoothing: antialiased;
+	border: 5px solid #1d70b8;
+	font-family: "GDS Transport", arial, sans-serif;
+	margin-bottom: 30px;
+}
+
+.govuk-notification-banner__header {
+	background-color: #1d70b8;
+	border-bottom: 1px solid transparent;
+	padding: 12px 15px 10px;
+}
+
+.govuk-notification-banner__title {
+	color: #ffffff;
+	font-size: 1.1875rem;
+	font-weight: 700;
+	line-height: 1.31579;
+	margin: 0;
+}
+
+.govuk-notification-banner__content {
+	background-color: #ffffff;
+	color: #0b0c0c;
+	padding: 20px 15px;
+}
+
+.govuk-notification-banner__heading {
+	font-size: 1.1875rem;
+	font-weight: 700;
+	line-height: 1.31579;
+	margin: 0 0 10px;
+}
+
+.govuk-notification-banner__content p {
+	font-size: 1.1875rem;
+	line-height: 1.31579;
+	margin: 0 0 15px;
+}
+
+.govuk-notification-banner__content p:last-child {
+	margin-bottom: 0;
+}
+
+.govuk-notification-banner__link {
+	color: #1d70b8;
+	text-decoration: underline;
+}
+
+.govuk-notification-banner__link:hover {
+	color: #003078;
+	text-decoration-thickness: 3px;
+}
+
+.govuk-notification-banner__link:focus {
+	background-color: #ffdd00;
+	color: #0b0c0c;
+	outline: 3px solid #ffdd00;
+	outline-offset: 0;
+	text-decoration: none;
+}
+
+.govuk-notification-banner--success {
+	border-color: #00703c;
+}
+
+.govuk-notification-banner--success .govuk-notification-banner__header {
+	background-color: #00703c;
+}

@@ -1,0 +1,22 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "default",
+					"label": "type",
+					"name": "type",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{"label": "Default (blue)", "value": "default"},
+							{"label": "Success (green)", "value": "success"}
+						]
+					}
+				}
+			],
+			"label": "banner-options"
+		}
+	]
+}

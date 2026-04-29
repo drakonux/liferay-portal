@@ -1,0 +1,11 @@
+{
+	"cacheable": false,
+	"configurationPath": "configuration.json",
+	"cssPath": "index.css",
+	"htmlPath": "index.html",
+	"icon": "code",
+	"jsPath": "index.js",
+	"name": "GOVUK Header",
+	"type": "component",
+	"thumbnailPath": "thumbnail.png"
+}

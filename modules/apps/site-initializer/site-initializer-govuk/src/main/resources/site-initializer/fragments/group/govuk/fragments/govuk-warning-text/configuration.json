@@ -1,0 +1,16 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "Warning",
+					"label": "icon-fallback-text",
+					"localizable": true,
+					"name": "iconFallbackText",
+					"type": "text"
+				}
+			]
+		}
+	]
+}

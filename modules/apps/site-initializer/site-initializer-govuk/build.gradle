@@ -1,0 +1,12 @@
+processResources {
+	doLast {
+		def thumbnail = new File(projectDir, "src/main/resources/site-initializer/thumbnail.png")
+
+		if (thumbnail.exists()) {
+			copy {
+				from thumbnail
+				into new File(sourceSets.main.output.resourcesDir, "META-INF/resources")
+			}
+		}
+	}
+}

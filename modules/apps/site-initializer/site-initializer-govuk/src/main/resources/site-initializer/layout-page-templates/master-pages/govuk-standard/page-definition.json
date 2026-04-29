@@ -1,0 +1,161 @@
+{
+	"pageElement": {
+		"pageElements": [
+			{
+				"definition": {
+					"layout": {
+						"widthType": "Fluid"
+					}
+				},
+				"pageElements": [
+					{
+						"definition": {
+							"fragment": {
+								"key": "govuk-header"
+							},
+							"fragmentConfig": {
+								"homeHref": "/",
+								"showServiceName": true
+							},
+							"fragmentFields": [
+								{
+									"id": "service-name",
+									"value": {
+										"fragmentLink": {
+											"value_i18n": {}
+										}
+									}
+								}
+							],
+							"indexed": false
+						},
+						"type": "Fragment"
+					}
+				],
+				"type": "Section"
+			},
+			{
+				"definition": {
+					"layout": {
+						"widthType": "Fluid"
+					}
+				},
+				"pageElements": [
+					{
+						"definition": {
+							"fragment": {
+								"key": "govuk-phase-banner"
+							},
+							"fragmentConfig": {
+								"feedbackHref": "#",
+								"phase": "beta"
+							},
+							"fragmentFields": [
+								{
+									"id": "phase-text",
+									"value": {
+										"fragmentLink": {
+											"value_i18n": {}
+										}
+									}
+								}
+							],
+							"indexed": false
+						},
+						"type": "Fragment"
+					}
+				],
+				"type": "Section"
+			},
+			{
+				"definition": {
+					"fragmentSettings": {
+						"unallowedFragments": []
+					}
+				},
+				"type": "DropZone"
+			},
+			{
+				"definition": {
+					"layout": {
+						"widthType": "Fluid"
+					}
+				},
+				"pageElements": [
+					{
+						"definition": {
+							"fragment": {
+								"key": "govuk-footer"
+							},
+							"fragmentConfig": {
+								"showLinks": true
+							},
+							"fragmentFields": [
+								{
+									"id": "footer-link-1",
+									"value": {
+										"fragmentLink": {
+											"value": {
+												"href": {"value": "/help"}
+											},
+											"value_i18n": {}
+										}
+									}
+								},
+								{
+									"id": "footer-link-2",
+									"value": {
+										"fragmentLink": {
+											"value": {
+												"href": {"value": "/cookies"}
+											},
+											"value_i18n": {}
+										}
+									}
+								},
+								{
+									"id": "footer-link-3",
+									"value": {
+										"fragmentLink": {
+											"value": {
+												"href": {"value": "/accessibility"}
+											},
+											"value_i18n": {}
+										}
+									}
+								},
+								{
+									"id": "footer-link-4",
+									"value": {
+										"fragmentLink": {
+											"value": {
+												"href": {"value": "/privacy"}
+											},
+											"value_i18n": {}
+										}
+									}
+								},
+								{
+									"id": "footer-link-5",
+									"value": {
+										"fragmentLink": {
+											"value": {
+												"href": {"value": "/terms"}
+											},
+											"value_i18n": {}
+										}
+									}
+								}
+							],
+							"indexed": false
+						},
+						"type": "Fragment"
+					}
+				],
+				"type": "Section"
+			}
+		],
+		"type": "Root"
+	},
+	"version": 1.1
+}

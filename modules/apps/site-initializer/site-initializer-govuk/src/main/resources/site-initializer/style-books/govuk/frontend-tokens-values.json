@@ -17,22 +17,27 @@
 	},
 	"primaryColor": {
 		"cssVariableMapping": "primary",
-		"value": "#00703c"
+		"name": "brandColor1",
+		"value": "#1D70B8"
 	},
 	"secondaryColor": {
 		"cssVariableMapping": "secondary",
+		"name": "gray100Color",
 		"value": "#f3f2f1"
 	},
 	"successColor": {
 		"cssVariableMapping": "success",
-		"value": "#00703c"
+		"name": "brandColor3",
+		"value": "#00703C"
 	},
 	"infoColor": {
 		"cssVariableMapping": "info",
-		"value": "#1d70b8"
+		"name": "brandColor1",
+		"value": "#1D70B8"
 	},
 	"warningColor": {
 		"cssVariableMapping": "warning",
+		"name": "brandColor4",
 		"value": "#ffdd00"
 	},
 	"dangerColor": {
@@ -45,6 +50,7 @@
 	},
 	"lightColor": {
 		"cssVariableMapping": "light",
+		"name": "gray100Color",
 		"value": "#f3f2f1"
 	},
 	"gray100Color": {
@@ -85,7 +91,7 @@
 	},
 	"brandColor1": {
 		"cssVariableMapping": "brand-color-1",
-		"value": "#1d70b8"
+		"value": "#1D70B8"
 	},
 	"brandColor2": {
 		"cssVariableMapping": "brand-color-2",
@@ -93,7 +99,7 @@
 	},
 	"brandColor3": {
 		"cssVariableMapping": "brand-color-3",
-		"value": "#00703c"
+		"value": "#00703C"
 	},
 	"brandColor4": {
 		"cssVariableMapping": "brand-color-4",
@@ -149,7 +155,8 @@
 	},
 	"btnPrimaryBackgroundColor": {
 		"cssVariableMapping": "btn-primary-background-color",
-		"value": "#00703c"
+		"name": "brandColor3",
+		"value": "#00703C"
 	},
 	"btnPrimaryBorderColor": {
 		"cssVariableMapping": "btn-primary-border-color",

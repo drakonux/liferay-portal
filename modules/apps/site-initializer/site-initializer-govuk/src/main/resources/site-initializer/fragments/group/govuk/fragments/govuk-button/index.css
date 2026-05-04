@@ -1,8 +1,8 @@
-.govuk-button {
+govuk-button {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-appearance: none;
 	-webkit-font-smoothing: antialiased;
-	background-color: #00703c;
+	background-color: var(--brand-color-3, #00703C);
 	border: 2px solid transparent;
 	border-radius: 0;
 	box-shadow: 0 2px 0 #002d18;

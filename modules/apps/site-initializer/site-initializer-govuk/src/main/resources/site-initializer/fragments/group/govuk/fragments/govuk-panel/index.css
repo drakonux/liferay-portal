@@ -1,6 +1,6 @@
-.govuk-panel {
+govuk-panel {
 	-webkit-font-smoothing: antialiased;
-	background-color: #00703c;
+	background-color: var(--brand-color-3, #00703C);
 	box-sizing: border-box;
 	font-family: "GDS Transport", arial, sans-serif;
 	margin-bottom: 30px;

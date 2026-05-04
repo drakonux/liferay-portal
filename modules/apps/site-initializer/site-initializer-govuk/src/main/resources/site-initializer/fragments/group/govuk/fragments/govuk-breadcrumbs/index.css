@@ -1,4 +1,4 @@
-.govuk-breadcrumbs {
+govuk-breadcrumbs {
 	-webkit-font-smoothing: antialiased;
 	color: #0b0c0c;
 	font-family: "GDS Transport", arial, sans-serif;
@@ -28,7 +28,7 @@
 	display: inline-block;
 	height: 6px;
 	margin: 1px 8px 0;
-	transform: rotate(45deg);
+	transform: rotate(-45deg);
 	width: 6px;
 }
 
@@ -36,6 +36,7 @@
 	color: #0b0c0c;
 	font-size: 0.875rem;
 	text-decoration: underline;
+	cursor: pointer;
 }
 
 .govuk-breadcrumbs__link:hover {
@@ -49,9 +50,4 @@
 	outline: 3px solid #ffdd00;
 	outline-offset: 0;
 	text-decoration: none;
-}
-
-.govuk-breadcrumbs__list-item[aria-current="page"] {
-	color: #505a5f;
-	cursor: default;
 }

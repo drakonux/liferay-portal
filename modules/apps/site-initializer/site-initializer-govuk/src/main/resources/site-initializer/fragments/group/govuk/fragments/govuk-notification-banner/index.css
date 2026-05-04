@@ -1,12 +1,12 @@
-.govuk-notification-banner {
+govuk-notification-banner {
 	-webkit-font-smoothing: antialiased;
-	border: 5px solid #1d70b8;
+	border: 5px solid var(--brand-color-1, #1d70b8);
 	font-family: "GDS Transport", arial, sans-serif;
 	margin-bottom: 30px;
 }
 
 .govuk-notification-banner__header {
-	background-color: #1d70b8;
+	background-color: var(--brand-color-1, #1d70b8);
 	border-bottom: 1px solid transparent;
 	padding: 12px 15px 10px;
 }

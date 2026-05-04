@@ -1,7 +1,7 @@
-.govuk-footer {
+govuk-footer {
 	-webkit-font-smoothing: antialiased;
 	background-color: #f4f8fb;
-	border-top: 10px solid #1d70b8;
+	border-top: 10px solid var(--brand-color-1, #1d70b8);
 	color: #0b0c0c;
 	font-family: "GDS Transport", arial, sans-serif;
 	font-size: 1rem;

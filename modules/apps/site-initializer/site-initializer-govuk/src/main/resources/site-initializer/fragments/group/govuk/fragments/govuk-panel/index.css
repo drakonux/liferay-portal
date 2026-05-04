@@ -1,4 +1,4 @@
-govuk-panel {
+.govuk-panel {
 	-webkit-font-smoothing: antialiased;
 	background-color: var(--brand-color-3, #00703C);
 	box-sizing: border-box;

@@ -1,4 +1,4 @@
-govuk-notification-banner {
+.govuk-notification-banner {
 	-webkit-font-smoothing: antialiased;
 	border: 5px solid var(--brand-color-1, #1d70b8);
 	font-family: "GDS Transport", arial, sans-serif;

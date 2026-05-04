@@ -1,0 +1,11 @@
+{
+	"cacheable": true,
+	"configurationPath": "configuration.json",
+	"cssPath": "index.css",
+	"htmlPath": "index.html",
+	"icon": "code",
+	"jsPath": "index.js",
+	"name": "GOVUK Tag",
+	"thumbnailPath": "thumbnail.png",
+	"type": "component"
+}

@@ -23,14 +23,21 @@
 
 .govuk-button:hover {
 	background-color: #005a30;
+	color: #ffffff;
+	text-decoration: none;
 }
 
 .govuk-button:focus {
-	background-color: #ffdd00;
-	border-color: #0b0c0c;
-	box-shadow: inset 0 -2px 0 #0b0c0c;
-	color: #0b0c0c;
+	border-color: #ffdd00;
+	box-shadow: inset 0 0 0 1px #ffdd00;
 	outline: 3px solid transparent;
+}
+
+.govuk-button:focus:not(:active):not(:hover) {
+	background-color: #ffdd00;
+	border-color: #ffdd00;
+	box-shadow: 0 2px 0 #0b0c0c;
+	color: #0b0c0c;
 }
 
 .govuk-button:active,
@@ -47,10 +54,12 @@
 
 .govuk-button--secondary:hover {
 	background-color: #dbdad9;
+	color: #0b0c0c;
 }
 
-.govuk-button--secondary:focus {
+.govuk-button--secondary:focus:not(:active):not(:hover) {
 	background-color: #ffdd00;
+	color: #0b0c0c;
 }
 
 .govuk-button--warning {

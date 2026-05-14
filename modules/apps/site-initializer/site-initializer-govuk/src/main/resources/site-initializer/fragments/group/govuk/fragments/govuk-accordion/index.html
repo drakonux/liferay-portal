@@ -1,16 +1,35 @@
-﻿<div class="govuk-accordion">
+<div class="govuk-accordion" data-module="govuk-accordion" id="${fragmentEntryLinkNamespace}-accordion">
+	<div class="govuk-accordion__controls">
+		<button aria-expanded="false" class="govuk-accordion__show-all" type="button">
+			<span aria-hidden="true" class="govuk-accordion__section-toggle-icon"></span>
+			<span class="govuk-accordion__show-all-text">Show all sections</span>
+		</button>
+	</div>
 	<div class="govuk-accordion__section">
 		<div class="govuk-accordion__section-header">
 			<h2 class="govuk-accordion__section-heading">
-				<button class="govuk-accordion__section-button" type="button" aria-expanded="false">
-					<span data-lfr-editable-id="section-1-heading" data-lfr-editable-type="text">Understanding agile project management</span>
-					<span class="govuk-accordion__section-toggle" aria-hidden="true">
-						<span class="govuk-accordion__section-toggle-text">Show</span>
+				<button
+					aria-controls="${fragmentEntryLinkNamespace}-content-1"
+					aria-expanded="false"
+					class="govuk-accordion__section-button"
+					id="${fragmentEntryLinkNamespace}-heading-1"
+					type="button"
+				>
+					<span class="govuk-accordion__section-heading-text">
+						<span class="govuk-accordion__section-heading-text-focus">
+							<span data-lfr-editable-id="section-1-heading" data-lfr-editable-type="text">Understanding agile project management</span>
+						</span>
+					</span>
+					<span aria-hidden="true" class="govuk-accordion__section-toggle">
+						<span class="govuk-accordion__section-toggle-focus">
+							<span class="govuk-accordion__section-toggle-icon"></span>
+							<span class="govuk-accordion__section-toggle-text">Show</span>
+						</span>
 					</span>
 				</button>
 			</h2>
 		</div>
-		<div class="govuk-accordion__section-content" hidden>
+		<div class="govuk-accordion__section-content" id="${fragmentEntryLinkNamespace}-content-1">
 			<div data-lfr-editable-id="section-1-content" data-lfr-editable-type="rich-text">
 				<p>Agile methods help teams manage work so that they can respond to the needs of citizens. It's an alternative to managing projects in long phases, called waterfall project management.</p>
 			</div>
@@ -19,15 +38,28 @@
 	<div class="govuk-accordion__section">
 		<div class="govuk-accordion__section-header">
 			<h2 class="govuk-accordion__section-heading">
-				<button class="govuk-accordion__section-button" type="button" aria-expanded="false">
-					<span data-lfr-editable-id="section-2-heading" data-lfr-editable-type="text">Working in agile sprints</span>
-					<span class="govuk-accordion__section-toggle" aria-hidden="true">
-						<span class="govuk-accordion__section-toggle-text">Show</span>
+				<button
+					aria-controls="${fragmentEntryLinkNamespace}-content-2"
+					aria-expanded="false"
+					class="govuk-accordion__section-button"
+					id="${fragmentEntryLinkNamespace}-heading-2"
+					type="button"
+				>
+					<span class="govuk-accordion__section-heading-text">
+						<span class="govuk-accordion__section-heading-text-focus">
+							<span data-lfr-editable-id="section-2-heading" data-lfr-editable-type="text">Working in agile sprints</span>
+						</span>
+					</span>
+					<span aria-hidden="true" class="govuk-accordion__section-toggle">
+						<span class="govuk-accordion__section-toggle-focus">
+							<span class="govuk-accordion__section-toggle-icon"></span>
+							<span class="govuk-accordion__section-toggle-text">Show</span>
+						</span>
 					</span>
 				</button>
 			</h2>
 		</div>
-		<div class="govuk-accordion__section-content" hidden>
+		<div class="govuk-accordion__section-content" id="${fragmentEntryLinkNamespace}-content-2">
 			<div data-lfr-editable-id="section-2-content" data-lfr-editable-type="rich-text">
 				<p>Sprint planning helps teams understand their capacity and what user stories they can work on in the sprint. Each sprint typically lasts 1 to 2 weeks.</p>
 			</div>
@@ -36,18 +68,84 @@
 	<div class="govuk-accordion__section">
 		<div class="govuk-accordion__section-header">
 			<h2 class="govuk-accordion__section-heading">
-				<button class="govuk-accordion__section-button" type="button" aria-expanded="false">
-					<span data-lfr-editable-id="section-3-heading" data-lfr-editable-type="text">Reviewing and improving your agile process</span>
-					<span class="govuk-accordion__section-toggle" aria-hidden="true">
-						<span class="govuk-accordion__section-toggle-text">Show</span>
+				<button
+					aria-controls="${fragmentEntryLinkNamespace}-content-3"
+					aria-expanded="false"
+					class="govuk-accordion__section-button"
+					id="${fragmentEntryLinkNamespace}-heading-3"
+					type="button"
+				>
+					<span class="govuk-accordion__section-heading-text">
+						<span class="govuk-accordion__section-heading-text-focus">
+							<span data-lfr-editable-id="section-3-heading" data-lfr-editable-type="text">Reviewing and improving your agile process</span>
+						</span>
+					</span>
+					<span aria-hidden="true" class="govuk-accordion__section-toggle">
+						<span class="govuk-accordion__section-toggle-focus">
+							<span class="govuk-accordion__section-toggle-icon"></span>
+							<span class="govuk-accordion__section-toggle-text">Show</span>
+						</span>
 					</span>
 				</button>
 			</h2>
 		</div>
-		<div class="govuk-accordion__section-content" hidden>
+		<div class="govuk-accordion__section-content" id="${fragmentEntryLinkNamespace}-content-3">
 			<div data-lfr-editable-id="section-3-content" data-lfr-editable-type="rich-text">
 				<p>Retrospectives give the team an opportunity to reflect on how they worked and identify improvements. They're usually held at the end of each sprint.</p>
 			</div>
 		</div>
 	</div>
 </div>
+
+<script>
+	(function () {
+		var accordion = document.getElementById('${fragmentEntryLinkNamespace}-accordion');
+
+		if (!accordion) {
+			return;
+		}
+
+		var showAllBtn = accordion.querySelector('.govuk-accordion__show-all');
+		var showAllText = showAllBtn.querySelector('.govuk-accordion__show-all-text');
+		var sections = accordion.querySelectorAll('.govuk-accordion__section');
+
+		function setSection(section, expanded) {
+			var btn = section.querySelector('.govuk-accordion__section-button');
+			var toggleText = section.querySelector('.govuk-accordion__section-toggle-text');
+
+			btn.setAttribute('aria-expanded', String(expanded));
+			toggleText.textContent = expanded ? 'Hide' : 'Show';
+			section.classList.toggle('govuk-accordion__section--expanded', expanded);
+		}
+
+		function allExpanded() {
+			return Array.prototype.every.call(sections, function (s) {
+				return s.classList.contains('govuk-accordion__section--expanded');
+			});
+		}
+
+		function updateShowAll() {
+			var expanded = allExpanded();
+			showAllBtn.setAttribute('aria-expanded', String(expanded));
+			showAllText.textContent = expanded ? 'Hide all sections' : 'Show all sections';
+		}
+
+		sections.forEach(function (section) {
+			var btn = section.querySelector('.govuk-accordion__section-button');
+
+			btn.addEventListener('click', function () {
+				var expanded = btn.getAttribute('aria-expanded') === 'true';
+				setSection(section, !expanded);
+				updateShowAll();
+			});
+		});
+
+		showAllBtn.addEventListener('click', function () {
+			var expanded = allExpanded();
+			sections.forEach(function (section) {
+				setSection(section, !expanded);
+			});
+			updateShowAll();
+		});
+	})();
+</script>

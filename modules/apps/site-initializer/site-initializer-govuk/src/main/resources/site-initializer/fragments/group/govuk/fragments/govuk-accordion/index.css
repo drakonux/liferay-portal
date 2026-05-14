@@ -1,7 +1,46 @@
-﻿.govuk-accordion {
+.govuk-accordion {
 	border-bottom: 1px solid #b1b4b6;
-	font-family: "GDS Transport", arial, sans-serif;
+	font-family: var(--font-family-base);
 }
+
+/* Show all controls
+   ============================================================================= */
+
+.govuk-accordion__controls {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: right;
+}
+
+.govuk-accordion__show-all {
+	align-items: center;
+	background: none;
+	border: none;
+	color: #1d70b8;
+	cursor: pointer;
+	display: inline-flex;
+	font-family: var(--font-family-base);
+	font-size: 1rem;
+	font-weight: 400;
+	gap: 8px;
+	padding: 0;
+	text-decoration: underline;
+}
+
+.govuk-accordion__show-all:hover {
+	color: #003078;
+}
+
+.govuk-accordion__show-all:focus {
+	background-color: #ffdd00;
+	box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c;
+	color: #0b0c0c;
+	outline: none;
+	text-decoration: none;
+}
+
+/* Section
+   ============================================================================= */
 
 .govuk-accordion__section {
 	padding-top: 0;
@@ -10,7 +49,7 @@
 .govuk-accordion__section-header {
 	border-top: 1px solid #b1b4b6;
 	padding-bottom: 0;
-	padding-top: 15px;
+	padding-top: 0;
 }
 
 .govuk-accordion__section-heading {
@@ -21,43 +60,132 @@
 	padding: 0;
 }
 
+/* Section button — column layout: heading on top, toggle below
+   ============================================================================= */
+
 .govuk-accordion__section-button {
+	align-items: flex-start;
 	background: none;
 	border: none;
-	color: #1d70b8;
+	color: #0b0c0c;
 	cursor: pointer;
 	display: flex;
-	font-family: "GDS Transport", arial, sans-serif;
+	flex-direction: column;
+	font-family: var(--font-family-base);
 	font-size: 1.1875rem;
 	font-weight: 700;
-	justify-content: space-between;
+	gap: 4px;
 	line-height: 1.31579;
-	padding: 10px 0;
+	padding: 15px 0;
 	text-align: left;
-	text-decoration: underline;
+	text-decoration: none;
 	width: 100%;
 }
 
-.govuk-accordion__section-button:focus {
-	background-color: #ffdd00;
-	color: #0b0c0c;
-	outline: 3px solid #ffdd00;
-	outline-offset: 0;
+/* Hover: grey background on the entire item, icon filled black */
+
+.govuk-accordion__section-button:hover {
+	background-color: #f3f2f1;
 }
+
+.govuk-accordion__section-button:hover .govuk-accordion__section-toggle-icon {
+	background-color: #0b0c0c;
+	border-color: #0b0c0c;
+}
+
+.govuk-accordion__section-button:hover .govuk-accordion__section-toggle-icon::after {
+	border-color: #ffffff;
+}
+
+/* Focus: yellow highlight on text only + strong underline */
+
+.govuk-accordion__section-button:focus {
+	outline: none;
+}
+
+.govuk-accordion__section-button:focus .govuk-accordion__section-heading-text-focus {
+	background-color: #ffdd00;
+	box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c;
+	color: #0b0c0c;
+	text-decoration: none;
+}
+
+.govuk-accordion__section-button:focus .govuk-accordion__section-toggle-focus {
+	background-color: #ffdd00;
+	box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c;
+	color: #0b0c0c;
+	text-decoration: none;
+}
+
+.govuk-accordion__section-button:focus .govuk-accordion__section-toggle-icon {
+	background-color: #0b0c0c;
+	border-color: #0b0c0c;
+}
+
+.govuk-accordion__section-button:focus .govuk-accordion__section-toggle-icon::after {
+	border-color: #ffffff;
+}
+
+/* Toggle label + icon
+   ============================================================================= */
 
 .govuk-accordion__section-toggle {
+	align-items: center;
 	color: #1d70b8;
-	font-size: 0.875rem;
+	display: inline-flex;
+	font-size: 1rem;
 	font-weight: 400;
-	margin-left: 15px;
-	white-space: nowrap;
 }
 
-.govuk-accordion__section-button:focus .govuk-accordion__section-toggle {
-	color: #0b0c0c;
+.govuk-accordion__section-toggle-focus {
+	align-items: center;
+	display: inline-flex;
+	gap: 6px;
 }
+
+/* Circle + chevron icon
+   ============================================================================= */
+
+.govuk-accordion__section-toggle-icon,
+.govuk-accordion__show-all .govuk-accordion__section-toggle-icon {
+	border: 2px solid currentcolor;
+	border-radius: 50%;
+	display: inline-block;
+	flex-shrink: 0;
+	height: 16px;
+	position: relative;
+	width: 16px;
+}
+
+.govuk-accordion__section-toggle-icon::after,
+.govuk-accordion__show-all .govuk-accordion__section-toggle-icon::after {
+	border-bottom: 2px solid currentcolor;
+	border-right: 2px solid currentcolor;
+	content: "";
+	display: block;
+	height: 5px;
+	left: 3px;
+	position: absolute;
+	top: 2px;
+	transform: rotate(45deg);
+	width: 5px;
+}
+
+.govuk-accordion__section--expanded .govuk-accordion__section-toggle-icon::after {
+	top: 5px;
+	transform: rotate(225deg);
+}
+
+.govuk-accordion__show-all[aria-expanded="true"] .govuk-accordion__section-toggle-icon::after {
+	top: 5px;
+	transform: rotate(225deg);
+}
+
+/* Section content
+   ============================================================================= */
 
 .govuk-accordion__section-content {
+	display: none;
 	padding-bottom: 30px;
 	padding-top: 15px;
 }

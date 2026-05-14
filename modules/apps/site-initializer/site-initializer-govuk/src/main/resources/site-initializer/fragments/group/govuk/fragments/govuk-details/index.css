@@ -1,54 +1,102 @@
-﻿.govuk-details {
+.govuk-details {
 	color: #0b0c0c;
 	display: block;
-	font-family: "GDS Transport", arial, sans-serif;
+	font-family: var(--font-family-base);
 	font-size: 1.1875rem;
 	line-height: 1.31579;
 	margin-bottom: 20px;
 }
 
+/* Summary — block, fit-content width so focus highlight wraps text only
+   ============================================================================= */
+
 .govuk-details__summary {
 	color: #1d70b8;
 	cursor: pointer;
-	display: inline-block;
+	display: block;
 	padding-left: 25px;
 	position: relative;
+}
+
+/* Hide the browser's default disclosure triangle */
+
+.govuk-details__summary::-webkit-details-marker {
+	display: none;
+}
+
+.govuk-details__summary {
+	list-style: none;
+}
+
+/* Underline only on the text span, not the chevron
+   ============================================================================= */
+
+.govuk-details__summary-text {
 	text-decoration: underline;
+	text-decoration-skip-ink: none;
+	text-decoration-thickness: max(1px, .0625rem);
+	text-underline-offset: .15em;
 }
 
-.govuk-details__summary::before {
-	border-color: transparent;
-	border-left-color: inherit;
-	border-style: solid;
-	border-width: 7px 0 7px 12.124px;
-	content: "";
-	display: block;
-	height: 0;
-	left: 0;
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	width: 0;
+/* Hover
+   ============================================================================= */
+
+.govuk-details__summary:hover {
+	color: #003078;
 }
 
-.govuk-details[open] .govuk-details__summary::before {
-	border-color: transparent;
-	border-top-color: inherit;
-	border-width: 12.124px 7px 0;
+.govuk-details__summary:hover .govuk-details__summary-text {
+	text-decoration-thickness: max(3px, .1875rem, .12em);
 }
+
+/* Focus — yellow text highlight + strong underline
+   ============================================================================= */
 
 .govuk-details__summary:focus {
 	background-color: #ffdd00;
+	box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c;
 	color: #0b0c0c;
-	outline: 3px solid #ffdd00;
-	outline-offset: 0;
+	outline: none;
+}
+
+.govuk-details__summary:focus .govuk-details__summary-text {
+	text-decoration: none;
+}
+
+/* Filled triangle — pointing right when closed, down when open
+   ============================================================================= */
+
+.govuk-details__summary::before {
+	background-color: currentcolor;
+	bottom: 0;
+	clip-path: polygon(0 0, 100% 50%, 0 100%);
+	content: "";
+	display: block;
+	height: 14px;
+	left: 0;
+	margin: auto 0;
+	position: absolute;
+	top: 0;
+	width: 8px;
+}
+
+.govuk-details[open] .govuk-details__summary::before {
+	clip-path: polygon(0 0, 100% 0, 50% 100%);
+	height: 8px;
+	left: -3px;
+	width: 14px;
+}
+
+/* Content panel
+   ============================================================================= */
+
+.govuk-details[open] .govuk-details__summary {
+	margin-bottom: 5px;
 }
 
 .govuk-details__text {
 	border-left: 5px solid #b1b4b6;
-	margin-top: 10px;
 	padding: 15px;
-	padding-top: 0;
 }
 
 .govuk-details__text p {

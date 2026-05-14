@@ -1,6 +1,6 @@
 .govuk-warning-text {
 	-webkit-font-smoothing: antialiased;
-	align-items: flex-start;
+	align-items: center;
 	display: flex;
 	font-family: "GDS Transport", arial, sans-serif;
 	font-size: 1.1875rem;

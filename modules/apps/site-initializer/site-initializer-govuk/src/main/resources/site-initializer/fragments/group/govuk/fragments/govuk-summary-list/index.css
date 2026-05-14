@@ -10,13 +10,13 @@
 }
 
 .govuk-summary-list__row {
-	border-bottom: 1px solid #b1b4b6;
 	display: table-row;
 }
 
 .govuk-summary-list__key,
 .govuk-summary-list__value,
 .govuk-summary-list__actions {
+	border-bottom: 1px solid #b1b4b6;
 	display: table-cell;
 	padding: 10px 20px 10px 0;
 	vertical-align: top;
@@ -44,6 +44,24 @@
 .govuk-summary-list__actions {
 	text-align: right;
 	width: 20%;
+}
+
+/* Multiple actions list with | separator
+   ============================================================================= */
+
+.govuk-summary-list__actions-list {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.govuk-summary-list__actions-list-item {
+	display: inline;
+}
+
+.govuk-summary-list__actions-list-item + .govuk-summary-list__actions-list-item::before {
+	content: "\00a0| ";
 }
 
 .govuk-link {

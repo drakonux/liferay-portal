@@ -1,0 +1,24 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "m",
+					"label": "caption-size",
+					"name": "captionSize",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{"label": "Small (s)", "value": "s"},
+							{"label": "Medium (m)", "value": "m"},
+							{"label": "Large (l)", "value": "l"},
+							{"label": "Extra large (xl)", "value": "xl"}
+						]
+					}
+				}
+			],
+			"label": "table-options"
+		}
+	]
+}

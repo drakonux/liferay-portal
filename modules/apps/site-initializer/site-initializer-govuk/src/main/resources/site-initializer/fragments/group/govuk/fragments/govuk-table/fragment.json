@@ -1,5 +1,6 @@
 {
 	"cacheable": true,
+	"configurationPath": "configuration.json",
 	"cssPath": "index.css",
 	"htmlPath": "index.html",
 	"icon": "code",

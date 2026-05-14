@@ -1,4 +1,4 @@
-﻿<div class="govuk-tabs">
+﻿<div class="govuk-tabs" data-module="govuk-tabs" id="${fragmentEntryLinkNamespace}-tabs">
 	<h2 class="govuk-tabs__title">Contents</h2>
 	<ul class="govuk-tabs__list">
 		<li class="govuk-tabs__list-item govuk-tabs__list-item--selected">
@@ -36,3 +36,40 @@
 		</div>
 	</div>
 </div>
+
+<script>
+	(function () {
+		var tabs = document.getElementById('${fragmentEntryLinkNamespace}-tabs');
+
+		if (!tabs) {
+			return;
+		}
+
+		var tabLinks = tabs.querySelectorAll('.govuk-tabs__tab');
+		var panels = tabs.querySelectorAll('.govuk-tabs__panel');
+
+		tabLinks.forEach(function (link) {
+			link.addEventListener('click', function (e) {
+				e.preventDefault();
+
+				var targetId = link.getAttribute('href').replace('#', '');
+
+				tabLinks.forEach(function (l) {
+					l.closest('.govuk-tabs__list-item').classList.remove('govuk-tabs__list-item--selected');
+				});
+
+				panels.forEach(function (panel) {
+					panel.classList.add('govuk-tabs__panel--hidden');
+				});
+
+				link.closest('.govuk-tabs__list-item').classList.add('govuk-tabs__list-item--selected');
+
+				var target = document.getElementById(targetId);
+
+				if (target) {
+					target.classList.remove('govuk-tabs__panel--hidden');
+				}
+			});
+		});
+	})();
+</script>

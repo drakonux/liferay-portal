@@ -1,62 +1,105 @@
-﻿.govuk-tabs {
-	font-family: "GDS Transport", arial, sans-serif;
+.govuk-tabs {
+	font-family: var(--font-family-base);
 	margin-bottom: 20px;
 }
 
 .govuk-tabs__title {
 	color: #0b0c0c;
 	font-size: 1.1875rem;
-	font-weight: 700;
+	font-weight: 400;
 	line-height: 1.31579;
 	margin-bottom: 10px;
 }
 
+/* Tab list
+   ============================================================================= */
+
 .govuk-tabs__list {
 	border-bottom: 1px solid #b1b4b6;
-	display: flex;
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
 
-.govuk-tabs__list-item {
-	margin: 0;
-	padding: 0;
+.govuk-tabs__list::after {
+	clear: both;
+	content: "";
+	display: block;
 }
 
-.govuk-tabs__tab {
-	border: 1px solid transparent;
-	color: #1d70b8;
-	display: block;
-	margin-bottom: -1px;
+/* Tab list items — inactive: grey background, float left, padding
+   ============================================================================= */
+
+.govuk-tabs__list-item {
+	background-color: #f3f2f1;
+	float: left;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 5px;
 	padding: 10px 20px;
+	position: relative;
+	text-align: center;
+}
+
+/* Selected list item: white background, border on 3 sides, no bottom border,
+   margin-bottom -1px so the item sits over the list's border-bottom
+   ============================================================================= */
+
+.govuk-tabs__list-item--selected {
+	background-color: #ffffff;
+	border: 1px solid #b1b4b6;
+	border-bottom: 0;
+	margin-bottom: -1px;
+	margin-top: -5px;
+	padding-bottom: 16px;
+	padding-left: 19px;
+	padding-right: 19px;
+	padding-top: 14px;
+}
+
+/* Tab link — no border, no padding (handled by list item)
+   ::after expands the click target to fill the whole list item
+   ============================================================================= */
+
+.govuk-tabs__tab {
+	color: #0b0c0c;
+	display: inline-block;
 	text-decoration: none;
 }
 
-.govuk-tabs__list-item--selected .govuk-tabs__tab {
-	background-color: #fff;
-	border: 1px solid #b1b4b6;
-	border-bottom-color: #fff;
-	color: #0b0c0c;
-	font-weight: 700;
+.govuk-tabs__tab::after {
+	bottom: 0;
+	content: "";
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 
 .govuk-tabs__tab:hover {
-	background-color: #f3f2f1;
 	color: #003078;
 	text-decoration: underline;
+	text-decoration-thickness: max(3px, .1875rem, .12em);
 }
 
 .govuk-tabs__tab:focus {
 	background-color: #ffdd00;
+	box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c;
 	color: #0b0c0c;
-	outline: 3px solid #ffdd00;
-	outline-offset: 0;
+	outline: none;
+	text-decoration: none;
 }
+
+.govuk-tabs__list-item--selected .govuk-tabs__tab {
+	text-decoration: none;
+}
+
+/* Panel
+   ============================================================================= */
 
 .govuk-tabs__panel {
 	border: 1px solid #b1b4b6;
-	border-top: none;
+	border-top: 0;
 	padding: 30px;
 }
 

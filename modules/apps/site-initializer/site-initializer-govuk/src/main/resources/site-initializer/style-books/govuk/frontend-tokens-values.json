@@ -17,73 +17,39 @@
 	},
 	"primaryColor": {
 		"cssVariableMapping": "primary",
-		"name": "brandColor1",
-		"value": "#1D70B8"
+		"value": "#1d70b8"
 	},
 	"secondaryColor": {
 		"cssVariableMapping": "secondary",
-		"name": "gray100Color",
 		"value": "#f3f2f1"
 	},
 	"successColor": {
 		"cssVariableMapping": "success",
-		"name": "brandColor3",
-		"value": "#00703C"
-	},
-	"infoColor": {
-		"cssVariableMapping": "info",
-		"name": "brandColor1",
-		"value": "#1D70B8"
+		"value": "#00703c"
 	},
 	"warningColor": {
 		"cssVariableMapping": "warning",
-		"name": "brandColor4",
-		"value": "#ffdd00"
+		"value": "#f47738"
 	},
 	"dangerColor": {
 		"cssVariableMapping": "danger",
-		"value": "#d4351c"
-	},
-	"darkColor": {
-		"cssVariableMapping": "dark",
-		"value": "#0b0c0c"
+		"value": "#ca3535"
 	},
 	"lightColor": {
 		"cssVariableMapping": "light",
-		"name": "gray100Color",
 		"value": "#f3f2f1"
 	},
 	"gray100Color": {
 		"cssVariableMapping": "gray-100",
 		"value": "#f3f2f1"
 	},
-	"gray200Color": {
-		"cssVariableMapping": "gray-200",
-		"value": "#dee0e2"
-	},
 	"gray300Color": {
 		"cssVariableMapping": "gray-300",
 		"value": "#b1b4b6"
 	},
-	"gray400Color": {
-		"cssVariableMapping": "gray-400",
-		"value": "#b1b4b6"
-	},
-	"gray500Color": {
-		"cssVariableMapping": "gray-500",
-		"value": "#6f777b"
-	},
 	"gray600Color": {
 		"cssVariableMapping": "gray-600",
 		"value": "#505a5f"
-	},
-	"gray700Color": {
-		"cssVariableMapping": "gray-700",
-		"value": "#3d4349"
-	},
-	"gray800Color": {
-		"cssVariableMapping": "gray-800",
-		"value": "#232529"
 	},
 	"gray900Color": {
 		"cssVariableMapping": "gray-900",
@@ -91,7 +57,7 @@
 	},
 	"brandColor1": {
 		"cssVariableMapping": "brand-color-1",
-		"value": "#1D70B8"
+		"value": "#1d70b8"
 	},
 	"brandColor2": {
 		"cssVariableMapping": "brand-color-2",
@@ -99,7 +65,7 @@
 	},
 	"brandColor3": {
 		"cssVariableMapping": "brand-color-3",
-		"value": "#00703C"
+		"value": "#00703c"
 	},
 	"brandColor4": {
 		"cssVariableMapping": "brand-color-4",
@@ -107,11 +73,11 @@
 	},
 	"fontFamilyBase": {
 		"cssVariableMapping": "font-family-base",
-		"value": "\"GDS Transport\", arial, sans-serif"
+		"value": "arial, sans-serif"
 	},
 	"fontFamilySansSerif": {
 		"cssVariableMapping": "font-family-sans-serif",
-		"value": "\"GDS Transport\", arial, sans-serif"
+		"value": "arial, sans-serif"
 	},
 	"fontSizeBase": {
 		"cssVariableMapping": "font-size-base",
@@ -127,7 +93,7 @@
 	},
 	"containerMaxXl": {
 		"cssVariableMapping": "container-max-xl",
-		"value": "960px"
+		"value": "1020px"
 	},
 	"h1FontSize": {
 		"cssVariableMapping": "h1-font-size",
@@ -141,22 +107,21 @@
 		"cssVariableMapping": "h3-font-size",
 		"value": "1.5rem"
 	},
-	"h4FontSize": {
-		"cssVariableMapping": "h4-font-size",
-		"value": "1.1875rem"
+	"borderRadius": {
+		"cssVariableMapping": "border-radius",
+		"value": "0"
 	},
-	"h5FontSize": {
-		"cssVariableMapping": "h5-font-size",
-		"value": "1.1875rem"
+	"borderRadiusSm": {
+		"cssVariableMapping": "border-radius-sm",
+		"value": "0"
 	},
-	"h6FontSize": {
-		"cssVariableMapping": "h6-font-size",
-		"value": "1.1875rem"
+	"borderRadiusLg": {
+		"cssVariableMapping": "border-radius-lg",
+		"value": "0"
 	},
 	"btnPrimaryBackgroundColor": {
 		"cssVariableMapping": "btn-primary-background-color",
-		"name": "brandColor3",
-		"value": "#00703C"
+		"value": "#00703c"
 	},
 	"btnPrimaryBorderColor": {
 		"cssVariableMapping": "btn-primary-border-color",

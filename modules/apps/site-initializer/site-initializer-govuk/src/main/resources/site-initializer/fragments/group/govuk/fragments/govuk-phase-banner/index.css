@@ -1,26 +1,26 @@
 .govuk-phase-banner {
 	-webkit-font-smoothing: antialiased;
-	border-bottom: 1px solid #b1b4b6;
-	font-family: "GDS Transport", arial, sans-serif;
+	border-bottom: 1px solid var(--gray-300);
+	font-family: var(--font-family-base);
 	padding: 8px 0;
 }
 
 .govuk-phase-banner__content {
 	align-items: center;
-	color: #0b0c0c;
+	color: var(--black);
 	display: flex;
-	font-size: 0.875rem;
+	font-size: var(--font-size-sm);
 	line-height: 1.42857;
 	margin: 0 auto;
-	max-width: 960px;
+	max-width: var(--container-max-xl);
 	padding: 0 15px;
 }
 
 .govuk-phase-banner__content__tag {
-	background-color: #1d70b8;
-	color: #ffffff;
+	background-color: var(--brand-color-1);
+	color: var(--white);
 	display: inline-block;
-	font-size: 0.875rem;
+	font-size: var(--font-size-sm);
 	font-weight: 700;
 	letter-spacing: 1px;
 	line-height: 1.25;
@@ -31,23 +31,23 @@
 }
 
 .govuk-phase-banner__text {
-	color: #0b0c0c;
+	color: var(--black);
 }
 
 .govuk-phase-banner__text a {
-	color: #1d70b8;
+	color: var(--brand-color-1);
 	text-decoration: underline;
 }
 
 .govuk-phase-banner__text a:hover {
-	color: #003078;
+	color: var(--brand-color-2);
 	text-decoration-thickness: 3px;
 }
 
 .govuk-phase-banner__text a:focus {
-	background-color: #ffdd00;
-	color: #0b0c0c;
-	outline: 3px solid #ffdd00;
+	background-color: var(--brand-color-4);
+	color: var(--black);
+	outline: 3px solid var(--brand-color-4);
 	outline-offset: 0;
 	text-decoration: none;
 }

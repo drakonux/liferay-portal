@@ -1,6 +1,6 @@
 .govuk-back-link {
 	-webkit-font-smoothing: antialiased;
-	color: #0b0c0c;
+	color: var(--black);
 	display: inline-block;
 	font-family: var(--font-family-base);
 	font-size: 1rem;
@@ -14,7 +14,7 @@
 }
 
 .govuk-back-link::before {
-	border-color: #505a5f;
+	border-color: var(--gray-600);
 	border-style: solid;
 	border-width: 1px 1px 0 0;
 	bottom: 0;
@@ -32,7 +32,7 @@
 
 .govuk-back-link:link,
 .govuk-back-link:visited {
-	color: #0b0c0c;
+	color: var(--black);
 }
 
 .govuk-back-link:hover {
@@ -41,13 +41,13 @@
 }
 
 .govuk-back-link:focus {
-	background-color: #ffdd00;
-	box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c;
-	color: #0b0c0c;
+	background-color: var(--brand-color-4);
+	box-shadow: 0 -2px var(--brand-color-4), 0 4px var(--black);
+	color: var(--black);
 	outline: none;
 	text-decoration: none;
 }
 
 .govuk-back-link:focus::before {
-	border-color: #0b0c0c;
+	border-color: var(--black);
 }

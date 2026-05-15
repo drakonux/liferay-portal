@@ -1,9 +1,9 @@
 .govuk-inset-text {
 	-webkit-font-smoothing: antialiased;
-	border-left: 10px solid #b1b4b6;
-	color: #0b0c0c;
-	font-family: "GDS Transport", arial, sans-serif;
-	font-size: 1.1875rem;
+	border-left: 10px solid var(--gray-300);
+	color: var(--black);
+	font-family: var(--font-family-base);
+	font-size: var(--font-size-base);
 	line-height: 1.31579;
 	margin-bottom: 20px;
 	margin-top: 20px;
@@ -19,22 +19,22 @@
 }
 
 .govuk-inset-text p {
-	font-size: 1.1875rem;
+	font-size: var(--font-size-base);
 	line-height: 1.31579;
 	margin: 0 0 15px;
 }
 
 .govuk-inset-text a {
-	color: #1d70b8;
+	color: var(--brand-color-1);
 }
 
 .govuk-inset-text a:hover {
-	color: #003078;
+	color: var(--brand-color-2);
 }
 
 .govuk-inset-text a:focus {
-	background-color: #ffdd00;
-	color: #0b0c0c;
-	outline: 3px solid #ffdd00;
+	background-color: var(--brand-color-4);
+	color: var(--black);
+	outline: 3px solid var(--brand-color-4);
 	outline-offset: 0;
 }

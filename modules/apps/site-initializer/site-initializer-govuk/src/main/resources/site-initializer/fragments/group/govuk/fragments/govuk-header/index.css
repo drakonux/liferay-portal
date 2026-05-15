@@ -1,16 +1,6 @@
-:root {
-	--brand-color-1: #1d70b8;
-	--white: #ffffff;
-	--black: #0b0c0c;
-	--warning: #ffdd00;
-	--font-family-base: "GDS Transport", arial, sans-serif;
-	--font-size-base: 1.1875rem;
-	--container-max-xl: 960px;
-}
-
 .govuk-header {
 	-webkit-font-smoothing: antialiased;
-	background-color: var(--brand-color-1, #1d70b8);
+	background-color: var(--brand-color-1);
 	border-bottom: 1px solid transparent;
 	font-family: var(--font-family-base);
 }
@@ -52,9 +42,9 @@
 }
 
 .govuk-header__homepage-link:focus {
-	background-color: var(--warning);
+	background-color: var(--brand-color-4);
 	border-bottom: 0;
-	box-shadow: 0 -2px var(--warning), 0 4px var(--black);
+	box-shadow: 0 -2px var(--brand-color-4), 0 4px var(--black);
 	color: var(--black);
 	margin-bottom: 0;
 	outline: 3px solid transparent;
@@ -75,7 +65,7 @@
 .govuk-header__product-name {
 	color: var(--white);
 	display: inline-block;
-	font-size: 1.5rem;
+	font-size: var(--font-size-lg);
 	font-weight: 300;
 	line-height: 1;
 	transform: translateY(3px);

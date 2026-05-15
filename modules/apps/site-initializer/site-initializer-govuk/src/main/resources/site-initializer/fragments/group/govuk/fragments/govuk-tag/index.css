@@ -3,8 +3,8 @@
 	background-color: #1d70b8 !important;
 	color: #fff !important;
 	display: inline-block;
-	font-family: "GDS Transport", arial, sans-serif;
-	font-size: 1.1875rem;
+	font-family: var(--font-family-base);
+	font-size: var(--font-size-base);
 	font-weight: 700;
 	letter-spacing: 1px;
 	line-height: 1.25;

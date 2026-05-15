@@ -2,8 +2,8 @@
 	-webkit-font-smoothing: antialiased;
 	align-items: center;
 	display: flex;
-	font-family: "GDS Transport", arial, sans-serif;
-	font-size: 1.1875rem;
+	font-family: var(--font-family-base);
+	font-size: var(--font-size-base);
 	font-weight: 700;
 	line-height: 1.31579;
 	padding: 10px 0;
@@ -12,14 +12,14 @@
 .govuk-warning-text__icon {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
-	background-color: #0b0c0c;
-	border: 3px solid #0b0c0c;
+	background-color: var(--black);
+	border: 3px solid var(--black);
 	border-radius: 50%;
 	box-sizing: border-box;
-	color: #ffffff;
+	color: var(--white);
 	display: inline-block;
 	flex-shrink: 0;
-	font-family: "GDS Transport", arial, sans-serif;
+	font-family: var(--font-family-base);
 	font-size: 1.6rem;
 	font-weight: 700;
 	height: 35px;
@@ -31,7 +31,7 @@
 }
 
 .govuk-warning-text__text {
-	color: #0b0c0c;
+	color: var(--black);
 	font-weight: 700;
 }
 

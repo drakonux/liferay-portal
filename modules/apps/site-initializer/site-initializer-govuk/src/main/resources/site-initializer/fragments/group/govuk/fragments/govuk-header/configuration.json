@@ -11,8 +11,8 @@
 				},
 				{
 					"defaultValue": "true",
-					"label": "show-service-name",
-					"name": "showServiceName",
+					"label": "show-product-name",
+					"name": "showProductName",
 					"type": "checkbox"
 				}
 			],

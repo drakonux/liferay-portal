@@ -1,4 +1,4 @@
-root {
+:root {
 	--brand-color-1: #1d70b8;
 	--white: #ffffff;
 	--black: #0b0c0c;
@@ -11,7 +11,7 @@ root {
 .govuk-header {
 	-webkit-font-smoothing: antialiased;
 	background-color: var(--brand-color-1, #1d70b8);
-	border-bottom: none;
+	border-bottom: 1px solid transparent;
 	font-family: var(--font-family-base);
 }
 
@@ -21,7 +21,7 @@ root {
 	justify-content: space-between;
 	margin: 0 auto;
 	max-width: var(--container-max-xl);
-	padding: 0 15px 0 0;
+	padding: 0 15px;
 	position: relative;
 }
 
@@ -29,38 +29,38 @@ root {
 	box-sizing: border-box;
 	max-width: 50%;
 	overflow: visible;
-	padding-bottom: 11px;
-	padding-top: 13px;
+	padding-bottom: 12px;
+	padding-top: 16px;
 }
 
-.govuk-header__link {
-	text-decoration: none;
-}
-
-.govuk-header__link--homepage {
-	align-items: center;
-	border-bottom: 3px solid transparent;
+.govuk-header__homepage-link {
+	align-items: flex-end;
 	box-sizing: border-box;
 	color: var(--white);
 	display: inline-flex;
 	gap: 8px;
 	padding-bottom: 3px;
-}
-
-.govuk-header__link--homepage:hover,
-.govuk-header__link--homepage:active {
-	border-bottom-color: var(--white);
 	text-decoration: none;
 }
 
-.govuk-header__link--homepage:focus {
-	background-color: var(--warning);
-	color: var(--black);
-	outline: 3px solid var(--warning);
-	outline-offset: 0;
+.govuk-header__homepage-link:hover,
+.govuk-header__homepage-link:active {
+	border-bottom: 3px solid var(--white);
+	color: var(--white);
+	margin-bottom: -3px;
+	text-decoration: none;
 }
 
-.govuk-header__link--homepage:focus .govuk-header__logotype {
+.govuk-header__homepage-link:focus {
+	background-color: var(--warning);
+	border-bottom: 0;
+	box-shadow: 0 -2px var(--warning), 0 4px var(--black);
+	color: var(--black);
+	margin-bottom: 0;
+	outline: 3px solid transparent;
+}
+
+.govuk-header__homepage-link:focus .govuk-header__logotype {
 	fill: var(--black);
 }
 
@@ -72,28 +72,13 @@ root {
 	fill: #00ffe0;
 }
 
-.govuk-header__content {
-	padding: 13px 0 11px;
-}
-
-.govuk-header__service-name {
+.govuk-header__product-name {
 	color: var(--white);
-	display: block;
-	font-size: var(--font-size-base);
-	font-weight: 700;
-	line-height: 1.3;
-}
-
-.govuk-header__service-name:hover {
-	color: var(--white);
-	text-decoration: underline;
-}
-
-.govuk-header__service-name:focus {
-	background-color: var(--warning);
-	color: var(--black);
-	outline: 3px solid var(--warning);
-	outline-offset: 0;
+	display: inline-block;
+	font-size: 1.5rem;
+	font-weight: 300;
+	line-height: 1;
+	transform: translateY(3px);
 }
 
 @media (max-width: 640px) {

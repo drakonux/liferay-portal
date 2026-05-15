@@ -46,7 +46,7 @@
 }
 
 .govuk-footer__link {
-	color: #0b0c0c;
+	color: #1d70b8;
 	font-size: 0.875rem;
 	line-height: 1.14286;
 	text-decoration: underline;
@@ -54,6 +54,7 @@
 
 .govuk-footer__link:hover {
 	color: #0b0c0c;
+	text-decoration: underline;
 	text-decoration-thickness: 3px;
 }
 
@@ -66,21 +67,18 @@
 }
 
 .govuk-footer__licence-logo {
-	color: #505a5f;
+	color: #0b0c0c;
 	display: inline-block;
 	margin-right: 10px;
 	vertical-align: top;
 }
 
 .govuk-footer__licence-description {
-	color: #505a5f;
-	display: inline;
+	color: #0b0c0c;
+	display: inline-block;
 	font-size: 0.875rem;
 	line-height: 1.5;
-}
-
-.govuk-footer__licence-description a {
-	color: #0b0c0c;
+	vertical-align: top;
 }
 
 .govuk-footer__copyright-logo {

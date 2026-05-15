@@ -98,6 +98,7 @@
    ============================================================================= */
 
 .govuk-tabs__panel {
+	background-color: #ffffff;
 	border: 1px solid #b1b4b6;
 	border-top: 0;
 	padding: 30px;

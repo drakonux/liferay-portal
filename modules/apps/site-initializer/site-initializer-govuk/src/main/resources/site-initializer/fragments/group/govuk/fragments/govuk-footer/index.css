@@ -87,6 +87,7 @@
 	display: inline-flex;
 	flex-direction: column;
 	font-size: 0.875rem;
+	gap: 10px;
 	min-width: 125px;
 	text-align: center;
 	text-decoration: none;

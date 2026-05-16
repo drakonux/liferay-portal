@@ -122,7 +122,7 @@ Reproducing GOV.UK's `govuk-grid-column-two-thirds` (2/3 + 1/3 layout) requires 
 **F-14 — Duplicate Fragment Set names create ambiguous delete errors**
 Liferay allows importing a Fragment Set with the same name as an existing one, resulting in two sets with identical display names. Attempting to delete one of them may show a dependency error that actually belongs to the other set. The error message does not include the set ID or any disambiguating information. Liferay should warn on import if a set with the same name already exists, and error messages should identify the specific set by ID.
 
-**F-15 — Period character in site initializer display names causes site creation error**
+**F-15 — Period character in site initializer display names causes site creation error** · [LPD-90729](https://liferay.atlassian.net/browse/LPD-90729)
 Using a period in the `name` field of `collection.json` or `style-book.json` (e.g. `"GOV.UK"`) causes an error at site creation time when the site initializer attempts to provision these resources. The `Bundle-Name` in `bnd.bnd` is separately restricted by `BNDBundleInformationCheck` (which rejects periods in OSGi bundle names). Both constraints mean GOV.UK display names must use `"GOV UK"` without the period. Root cause not yet investigated — likely a validation or parsing issue in the site initializer provisioning pipeline.
 
 ---

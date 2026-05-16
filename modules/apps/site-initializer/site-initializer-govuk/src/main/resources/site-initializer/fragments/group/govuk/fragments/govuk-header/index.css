@@ -62,7 +62,7 @@
 	fill: #00ffe0;
 }
 
-.govuk-header__product-name {
+.govuk-header__service-name {
 	color: var(--white);
 	display: inline-block;
 	font-size: var(--font-size-lg);

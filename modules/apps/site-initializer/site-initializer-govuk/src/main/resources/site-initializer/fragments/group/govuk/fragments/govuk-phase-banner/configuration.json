@@ -10,8 +10,14 @@
 					"type": "select",
 					"typeOptions": {
 						"validValues": [
-							{"label": "Alpha", "value": "alpha"},
-							{"label": "Beta", "value": "beta"}
+							{
+								"label": "Alpha",
+								"value": "alpha"
+							},
+							{
+								"label": "Beta",
+								"value": "beta"
+							}
 						]
 					}
 				},

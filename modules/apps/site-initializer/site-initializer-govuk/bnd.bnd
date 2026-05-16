@@ -1,4 +1,4 @@
-Bundle-Name: Liferay Site Initializer GOV.UK
+Bundle-Name: Liferay Site Initializer GOVUK
 Bundle-SymbolicName: com.liferay.site.initializer.govuk
 Bundle-Version: 1.0.0
 Liferay-Site-Initializer-Name: GOV.UK

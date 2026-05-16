@@ -10,16 +10,46 @@
 					"type": "select",
 					"typeOptions": {
 						"validValues": [
-							{"label": "Blue (default)", "value": ""},
-							{"label": "Grey", "value": "grey"},
-							{"label": "Green", "value": "green"},
-							{"label": "Turquoise", "value": "turquoise"},
-							{"label": "Light blue", "value": "light-blue"},
-							{"label": "Purple", "value": "purple"},
-							{"label": "Pink", "value": "pink"},
-							{"label": "Red", "value": "red"},
-							{"label": "Orange", "value": "orange"},
-							{"label": "Yellow", "value": "yellow"}
+							{
+								"label": "Blue (default)",
+								"value": ""
+							},
+							{
+								"label": "Grey",
+								"value": "grey"
+							},
+							{
+								"label": "Green",
+								"value": "green"
+							},
+							{
+								"label": "Turquoise",
+								"value": "turquoise"
+							},
+							{
+								"label": "Light blue",
+								"value": "light-blue"
+							},
+							{
+								"label": "Purple",
+								"value": "purple"
+							},
+							{
+								"label": "Pink",
+								"value": "pink"
+							},
+							{
+								"label": "Red",
+								"value": "red"
+							},
+							{
+								"label": "Orange",
+								"value": "orange"
+							},
+							{
+								"label": "Yellow",
+								"value": "yellow"
+							}
 						]
 					}
 				}

@@ -17,8 +17,8 @@
 }
 
 .govuk-breadcrumbs__list-item {
-	display: flex;
 	align-items: center;
+	display: flex;
 }
 
 .govuk-breadcrumbs__list-item + .govuk-breadcrumbs__list-item::before {
@@ -34,9 +34,9 @@
 
 .govuk-breadcrumbs__link {
 	color: var(--black);
+	cursor: pointer;
 	font-size: var(--font-size-sm);
 	text-decoration: underline;
-	cursor: pointer;
 }
 
 .govuk-breadcrumbs__link:hover {

@@ -46,9 +46,12 @@ The module will be deployed to your running Liferay instance.
 ## Create a GOV.UK site
 
 1. Go to **Control Panel → Sites → Sites**.
-2. Click the **+** button to add a new site.
-3. Select **GOV.UK** from the site initializer list.
-4. Give the site a name and click **Add**.
+
+1. Click the **+** button to add a new site.
+
+1. Select **GOV.UK** from the site initializer list.
+
+1. Give the site a name and click **Add**.
 
 Liferay will create the site with all fragments, the Style Book, and the master page pre-configured.
 

@@ -6,6 +6,6 @@
 	"icon": "code",
 	"jsPath": "index.js",
 	"name": "GOVUK Footer",
-	"type": "component",
-	"thumbnailPath": "thumbnail.png"
+	"thumbnailPath": "thumbnail.png",
+	"type": "component"
 }

@@ -10,10 +10,22 @@
 					"type": "select",
 					"typeOptions": {
 						"validValues": [
-							{"label": "Primary (green)", "value": "primary"},
-							{"label": "Secondary (grey)", "value": "secondary"},
-							{"label": "Warning (red)", "value": "warning"},
-							{"label": "Start (with arrow)", "value": "start"}
+							{
+								"label": "Primary (green)",
+								"value": "primary"
+							},
+							{
+								"label": "Secondary (grey)",
+								"value": "secondary"
+							},
+							{
+								"label": "Warning (red)",
+								"value": "warning"
+							},
+							{
+								"label": "Start (with arrow)",
+								"value": "start"
+							}
 						]
 					}
 				},

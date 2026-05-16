@@ -5,6 +5,6 @@
 	"icon": "code",
 	"jsPath": "index.js",
 	"name": "GOVUK Summary List",
-	"type": "component",
-	"thumbnailPath": "thumbnail.png"
+	"thumbnailPath": "thumbnail.png",
+	"type": "component"
 }

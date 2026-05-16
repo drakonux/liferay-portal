@@ -10,8 +10,14 @@
 					"type": "select",
 					"typeOptions": {
 						"validValues": [
-							{"label": "Default (blue)", "value": "default"},
-							{"label": "Success (green)", "value": "success"}
+							{
+								"label": "Default (blue)",
+								"value": "default"
+							},
+							{
+								"label": "Success (green)",
+								"value": "success"
+							}
 						]
 					}
 				}

@@ -1,5 +1,5 @@
 {
-	"cacheable": false,
+	"cacheable": true,
 	"cssPath": "index.css",
 	"htmlPath": "index.html",
 	"icon": "code",

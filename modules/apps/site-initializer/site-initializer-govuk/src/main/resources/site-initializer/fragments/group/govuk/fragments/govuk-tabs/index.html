@@ -1,4 +1,4 @@
-﻿<div class="govuk-tabs" data-module="govuk-tabs" id="${fragmentEntryLinkNamespace}-tabs">
+<div class="govuk-tabs" data-module="govuk-tabs" id="${fragmentEntryLinkNamespace}-tabs">
 	<h2 class="govuk-tabs__title">Contents</h2>
 
 	<ul class="govuk-tabs__list">
@@ -53,6 +53,7 @@
 		}
 
 		var tabLinks = tabs.querySelectorAll('.govuk-tabs__tab');
+		var listItems = tabs.querySelectorAll('.govuk-tabs__list-item');
 		var panels = tabs.querySelectorAll('.govuk-tabs__panel');
 
 		tabLinks.forEach(function (link) {
@@ -61,8 +62,8 @@
 
 				var targetId = link.getAttribute('href').replace('#', '');
 
-				tabLinks.forEach(function (l) {
-					l.closest('.govuk-tabs__list-item').classList.remove('govuk-tabs__list-item--selected');
+				listItems.forEach(function (li) {
+					li.classList.remove('govuk-tabs__list-item--selected');
 				});
 
 				panels.forEach(function (panel) {

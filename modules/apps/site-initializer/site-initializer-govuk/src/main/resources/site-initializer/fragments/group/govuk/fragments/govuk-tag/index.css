@@ -1,7 +1,7 @@
 .govuk-tag {
 	-webkit-font-smoothing: antialiased;
-	background-color: #1d70b8 !important;
-	color: #fff !important;
+	background-color: var(--brand-color-1) !important;
+	color: var(--white) !important;
 	display: inline-block;
 	font-family: var(--font-family-base);
 	font-size: var(--font-size-base);

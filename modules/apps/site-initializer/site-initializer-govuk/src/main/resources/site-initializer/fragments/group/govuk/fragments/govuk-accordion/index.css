@@ -103,13 +103,7 @@
 	outline: none;
 }
 
-.govuk-accordion__section-button:focus .govuk-accordion__section-heading-text-focus {
-	background-color: var(--brand-color-4);
-	box-shadow: 0 -2px var(--brand-color-4), 0 4px var(--black);
-	color: var(--black);
-	text-decoration: none;
-}
-
+.govuk-accordion__section-button:focus .govuk-accordion__section-heading-text-focus,
 .govuk-accordion__section-button:focus .govuk-accordion__section-toggle-focus {
 	background-color: var(--brand-color-4);
 	box-shadow: 0 -2px var(--brand-color-4), 0 4px var(--black);

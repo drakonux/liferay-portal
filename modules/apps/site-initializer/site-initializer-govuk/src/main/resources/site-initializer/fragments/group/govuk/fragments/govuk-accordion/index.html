@@ -133,7 +133,8 @@
 			sections.forEach(function (section) {
 				setSection(section, !expanded);
 			});
-			updateShowAll();
+			showAllBtn.setAttribute('aria-expanded', String(!expanded));
+			showAllText.textContent = !expanded ? 'Hide all sections' : 'Show all sections';
 		});
 	})();
 </script>

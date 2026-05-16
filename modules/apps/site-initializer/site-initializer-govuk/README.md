@@ -25,7 +25,7 @@ A Liferay site initializer that replicates the [GOV.UK Design System](https://de
 | `govuk-tag` | Colour-coded status tags |
 | `govuk-warning-text` | High-visibility warning message |
 
-**Style Book** — `GOV.UK` — sets the GOV.UK colour palette, typography (Arial), and zero border-radius across the site.
+**Style Book** — `GOV UK` — sets the GOV.UK colour palette, typography (Arial), and zero border-radius across the site.
 
 **Master page** — `GOV.UK Standard` — defines the page skeleton with a pre-placed header and footer, and restricts the drop zone to GOV.UK fragments only.
 
@@ -33,13 +33,13 @@ A Liferay site initializer that replicates the [GOV.UK Design System](https://de
 
 ## Deploy
 
-From the portal root:
+From the `modules/` directory:
 
 ```bash
-./gradlew :modules:apps:site-initializer:site-initializer-govuk:deploy
+cd modules && ../gradlew :apps:site-initializer:site-initializer-govuk:deploy
 ```
 
-The module will be deployed to your running Liferay instance.
+The Gradle wrapper lives in the portal root, not in `modules/`. The module will be deployed to your running Liferay instance.
 
 ---
 
@@ -61,7 +61,7 @@ Liferay will create the site with all fragments, the Style Book, and the master 
 
 If you create additional pages manually:
 
-- **Style Book:** open the page in the editor → top toolbar → Style Book icon → select **GOV.UK**.
+- **Style Book:** open the page in the editor → top toolbar → Style Book icon → select **GOV UK**.
 - **Master page:** page settings → Master → select **GOV.UK Standard**.
 
 ---

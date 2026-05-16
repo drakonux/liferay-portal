@@ -37,7 +37,7 @@ The Style Book applies value overrides to the Classic theme's Frontend Token Def
 | Net reduction | −7 |
 | CSS vars consumed by GOV.UK fragments | 14 distinct |
 | Fully tokenised fragments (0 literal values) | 9 / 16 |
-| Non-tokenisable literals remaining | ~12 (documented below) |
+| Non-tokenisable literals remaining | ~11 (documented below) |
 
 ---
 
@@ -88,7 +88,6 @@ The following values have no FET slot and were left as literals:
 
 | Value | Location | Reason |
 |---|---|---|
-| `#f4f8fb` | footer background | Not in GOV.UK palette; no FET slot |
 | `font-size: 1rem` | footer, back-link | Between `fontSizeBase` (1.1875rem) and `fontSizeSm` (0.875rem) |
 | `font-size: 2rem` | tabs `.govuk-heading-l` | Between h2 (2.25rem) and h3 (1.5rem) |
 | `font-size: 1.6rem` | warning-text icon | No FET slot |
@@ -122,6 +121,9 @@ Reproducing GOV.UK's `govuk-grid-column-two-thirds` (2/3 + 1/3 layout) requires 
 
 **F-14 — Duplicate Fragment Set names create ambiguous delete errors**
 Liferay allows importing a Fragment Set with the same name as an existing one, resulting in two sets with identical display names. Attempting to delete one of them may show a dependency error that actually belongs to the other set. The error message does not include the set ID or any disambiguating information. Liferay should warn on import if a set with the same name already exists, and error messages should identify the specific set by ID.
+
+**F-15 — Period character in site initializer display names causes site creation error**
+Using a period in the `name` field of `collection.json` or `style-book.json` (e.g. `"GOV.UK"`) causes an error at site creation time when the site initializer attempts to provision these resources. The `Bundle-Name` in `bnd.bnd` is separately restricted by `BNDBundleInformationCheck` (which rejects periods in OSGi bundle names). Both constraints mean GOV.UK display names must use `"GOV UK"` without the period. Root cause not yet investigated — likely a validation or parsing issue in the site initializer provisioning pipeline.
 
 ---
 

@@ -1,6 +1,6 @@
 .govuk-footer {
 	-webkit-font-smoothing: antialiased;
-	background-color: #f4f8fb;
+	background-color: var(--gray-100);
 	border-top: 10px solid var(--brand-color-1);
 	color: var(--black);
 	font-family: var(--font-family-base);

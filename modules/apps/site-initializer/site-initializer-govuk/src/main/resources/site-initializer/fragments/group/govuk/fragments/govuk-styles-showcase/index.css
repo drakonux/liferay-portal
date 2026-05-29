@@ -1,0 +1,110 @@
+.govuk-styles {
+	font-family: var(--govuk-font-family);
+}
+
+.govuk-styles__header {
+	border-bottom: 1px solid var(--govuk-border-colour);
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+}
+
+.govuk-styles__caption {
+	color: var(--govuk-secondary-text-colour);
+	display: block;
+	font-size: var(--govuk-font-size-24);
+	margin-bottom: 5px;
+}
+
+.govuk-styles__page-title {
+	font-size: var(--govuk-font-size-48);
+	font-weight: 700;
+	line-height: 1.04;
+	margin: 0 0 20px;
+}
+
+.govuk-styles__page-lead {
+	font-size: var(--govuk-font-size-24);
+	margin: 0;
+	max-width: 38em;
+}
+
+.govuk-styles__block {
+	margin-bottom: 40px;
+}
+
+.govuk-styles__title {
+	border-bottom: 1px solid var(--govuk-border-colour);
+	font-size: var(--govuk-font-size-24);
+	font-weight: 700;
+	margin: 0 0 10px;
+	padding-bottom: 10px;
+}
+
+.govuk-styles__intro {
+	color: var(--govuk-secondary-text-colour);
+	font-size: var(--govuk-font-size-19);
+	margin: 0 0 20px;
+	max-width: 38em;
+}
+
+.govuk-styles__swatches {
+	display: grid;
+	gap: 15px;
+	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.govuk-styles__swatch {
+	display: flex;
+	flex-direction: column;
+}
+
+.govuk-styles__chip {
+	border-radius: 0;
+	display: block;
+	height: 60px;
+	width: 100%;
+}
+
+.govuk-styles__chip--bordered {
+	box-shadow: inset 0 0 0 1px var(--govuk-border-colour);
+}
+
+.govuk-styles__name {
+	font-size: var(--govuk-font-size-19);
+	font-weight: 700;
+	margin-top: 8px;
+}
+
+.govuk-styles__hex {
+	color: var(--govuk-secondary-text-colour);
+	font-size: var(--govuk-font-size-14);
+}
+
+.govuk-styles__type-row {
+	border-bottom: 1px solid var(--govuk-black-tint-95);
+	margin: 0;
+	padding: 12px 0;
+}
+
+.govuk-styles__spacing {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.govuk-styles__spacing li {
+	align-items: center;
+	display: flex;
+	font-size: var(--govuk-font-size-19);
+	gap: 15px;
+	margin-bottom: 8px;
+}
+
+.govuk-styles__bar {
+	background-color: var(--govuk-blue);
+	display: inline-block;
+	height: 20px;
+}

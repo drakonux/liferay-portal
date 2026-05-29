@@ -1,21 +1,21 @@
 .govuk-footer {
 	-webkit-font-smoothing: antialiased;
-	background-color: var(--gray-100);
-	border-top: 10px solid var(--brand-color-1);
-	color: var(--black);
-	font-family: var(--font-family-base);
+	background-color: var(--govuk-black-tint-95);
+	border-top: 10px solid var(--govuk-blue);
+	color: var(--govuk-black);
+	font-family: var(--govuk-font-family);
 	font-size: 1rem;
 	line-height: 1.25;
 }
 
 .govuk-footer .govuk-width-container {
 	margin: 0 auto;
-	max-width: var(--container-max-xl);
+	max-width: var(--govuk-page-width);
 	padding: 30px 15px 0;
 }
 
 .govuk-footer__crown {
-	color: var(--black);
+	color: var(--govuk-black);
 	display: block;
 	margin-bottom: 10px;
 }
@@ -46,47 +46,47 @@
 }
 
 .govuk-footer__link {
-	color: var(--brand-color-1);
-	font-size: var(--font-size-sm);
+	color: var(--govuk-blue);
+	font-size: var(--govuk-font-size-14);
 	line-height: 1.14286;
 	text-decoration: underline;
 }
 
 .govuk-footer__link:hover {
-	color: var(--black);
+	color: var(--govuk-black);
 	text-decoration: underline;
 	text-decoration-thickness: 3px;
 }
 
 .govuk-footer__link:focus {
-	background-color: var(--brand-color-4);
-	color: var(--black);
-	outline: 3px solid var(--brand-color-4);
+	background-color: var(--govuk-yellow);
+	color: var(--govuk-black);
+	outline: 3px solid var(--govuk-yellow);
 	outline-offset: 0;
 	text-decoration: none;
 }
 
 .govuk-footer__licence-logo {
-	color: var(--black);
+	color: var(--govuk-black);
 	display: inline-block;
 	margin-right: 10px;
 	vertical-align: top;
 }
 
 .govuk-footer__licence-description {
-	color: var(--black);
+	color: var(--govuk-black);
 	display: inline-block;
-	font-size: var(--font-size-sm);
+	font-size: var(--govuk-font-size-14);
 	line-height: 1.5;
 	vertical-align: top;
 }
 
 .govuk-footer__copyright-logo {
 	align-items: center;
-	color: var(--black);
+	color: var(--govuk-black);
 	display: inline-flex;
 	flex-direction: column;
-	font-size: var(--font-size-sm);
+	font-size: var(--govuk-font-size-14);
 	gap: 10px;
 	min-width: 125px;
 	text-align: center;

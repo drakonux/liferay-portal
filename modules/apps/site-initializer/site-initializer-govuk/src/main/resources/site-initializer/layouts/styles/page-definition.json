@@ -1,0 +1,56 @@
+{
+    "settings": {
+        "masterPage": {
+            "key": "main"
+        }
+    },
+    "pageElement": {
+        "type": "Root",
+        "pageElements": [
+            {
+                "type": "Section",
+                "definition": {
+                    "name": "Styles content",
+                    "indexed": true,
+                    "fragmentStyle": {
+                        "paddingLeft": "3",
+                        "paddingRight": "3"
+                    }
+                },
+                "pageElements": [
+                    {
+                        "type": "Row",
+                        "definition": {
+                            "gutters": true,
+                            "numberOfColumns": 1
+                        },
+                        "pageElements": [
+                            {
+                                "type": "Column",
+                                "definition": {
+                                    "size": 12
+                                },
+                                "pageElements": [
+                                    {
+                                        "type": "Fragment",
+                                        "definition": {
+                                            "fragment": {
+                                                "key": "govuk-styles-showcase"
+                                            },
+                                            "fragmentConfig": {},
+                                            "fragmentFields": [],
+                                            "indexed": true,
+                                            "fragmentStyle": {
+                                                "marginTop": "3"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

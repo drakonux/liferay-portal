@@ -1,0 +1,154 @@
+{
+    "settings": {
+        "masterPage": {
+            "key": "main"
+        }
+    },
+    "pageElement": {
+        "type": "Root",
+        "pageElements": [
+            {
+                "type": "Fragment",
+                "definition": {
+                    "fragment": {
+                        "key": "govuk-hero"
+                    },
+                    "fragmentConfig": {
+                        "showLead": true,
+                        "showCta": true
+                    },
+                    "fragmentFields": [],
+                    "indexed": true
+                }
+            },
+            {
+                "type": "Section",
+                "definition": {
+                    "name": "Services and information",
+                    "indexed": true,
+                    "fragmentStyle": {
+                        "paddingLeft": "3",
+                        "paddingRight": "3"
+                    }
+                },
+                "pageElements": [
+                    {
+                        "type": "Row",
+                        "definition": {
+                            "gutters": true,
+                            "numberOfColumns": 3,
+                            "modulesPerRow": 3,
+                            "verticalAlignment": "top"
+                        },
+                        "pageElements": [
+                            {
+                                "type": "Column",
+                                "definition": {
+                                    "size": 4
+                                },
+                                "pageElements": [
+                                    {
+                                        "type": "Fragment",
+                                        "definition": {
+                                            "fragment": {
+                                                "key": "govuk-card"
+                                            },
+                                            "fragmentConfig": {
+                                                "showDescription": true
+                                            },
+                                            "fragmentFields": [],
+                                            "indexed": true
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Column",
+                                "definition": {
+                                    "size": 4
+                                },
+                                "pageElements": [
+                                    {
+                                        "type": "Fragment",
+                                        "definition": {
+                                            "fragment": {
+                                                "key": "govuk-card"
+                                            },
+                                            "fragmentConfig": {
+                                                "showDescription": true
+                                            },
+                                            "fragmentFields": [],
+                                            "indexed": true
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Column",
+                                "definition": {
+                                    "size": 4
+                                },
+                                "pageElements": [
+                                    {
+                                        "type": "Fragment",
+                                        "definition": {
+                                            "fragment": {
+                                                "key": "govuk-card"
+                                            },
+                                            "fragmentConfig": {
+                                                "showDescription": true
+                                            },
+                                            "fragmentFields": [],
+                                            "indexed": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "Section",
+                "definition": {
+                    "name": "Guidance",
+                    "indexed": true,
+                    "fragmentStyle": {
+                        "paddingLeft": "3",
+                        "paddingRight": "3"
+                    }
+                },
+                "pageElements": [
+                    {
+                        "type": "Row",
+                        "definition": {
+                            "gutters": true,
+                            "numberOfColumns": 1
+                        },
+                        "pageElements": [
+                            {
+                                "type": "Column",
+                                "definition": {
+                                    "size": 12
+                                },
+                                "pageElements": [
+                                    {
+                                        "type": "Fragment",
+                                        "definition": {
+                                            "fragment": {
+                                                "key": "govuk-inset-text"
+                                            },
+                                            "fragmentConfig": {},
+                                            "fragmentFields": [],
+                                            "indexed": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

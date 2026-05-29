@@ -1,9 +1,9 @@
 .govuk-inset-text {
 	-webkit-font-smoothing: antialiased;
-	border-left: 10px solid var(--gray-300);
-	color: var(--black);
-	font-family: var(--font-family-base);
-	font-size: var(--font-size-base);
+	border-left: 10px solid var(--govuk-border-colour);
+	color: var(--govuk-black);
+	font-family: var(--govuk-font-family);
+	font-size: var(--govuk-font-size-19);
 	line-height: 1.31579;
 	margin-bottom: 20px;
 	margin-top: 20px;
@@ -19,22 +19,22 @@
 }
 
 .govuk-inset-text p {
-	font-size: var(--font-size-base);
+	font-size: var(--govuk-font-size-19);
 	line-height: 1.31579;
 	margin: 0 0 15px;
 }
 
 .govuk-inset-text a {
-	color: var(--brand-color-1);
+	color: var(--govuk-blue);
 }
 
 .govuk-inset-text a:hover {
-	color: var(--brand-color-2);
+	color: var(--govuk-link-hover-colour);
 }
 
 .govuk-inset-text a:focus {
-	background-color: var(--brand-color-4);
-	color: var(--black);
-	outline: 3px solid var(--brand-color-4);
+	background-color: var(--govuk-yellow);
+	color: var(--govuk-black);
+	outline: 3px solid var(--govuk-yellow);
 	outline-offset: 0;
 }

@@ -2,9 +2,12 @@
 
 A Liferay site initializer that replicates the [GOV.UK Design System](https://design-system.service.gov.uk/) visual identity using the platform's built-in Style Book. No theme modifications or client extensions required.
 
+> **Canonical source / reference:** the standalone, strict `/ds-site-initializer-strict` deliverable this module is aligned to lives at
+> **[marcoscv-work/gov.uk_DS](https://github.com/marcoscv-work/gov.uk_DS)** (OSGi module + `govuk-theme` client extension + validate/deploy scripts).
+
 ## What's included
 
-**Fragments** — 16 GOV.UK components ready to use in the page editor:
+**Fragments** — 24 GOV.UK components ready to use in the page editor:
 
 | Fragment | Description |
 |---|---|
@@ -24,6 +27,14 @@ A Liferay site initializer that replicates the [GOV.UK Design System](https://de
 | `govuk-tabs` | Tabbed content sections |
 | `govuk-tag` | Colour-coded status tags |
 | `govuk-warning-text` | High-visibility warning message |
+| `govuk-card` | Linked content card |
+| `govuk-cookie-banner` | Cookie consent banner |
+| `govuk-hero` | Full-width hero / masthead |
+| `govuk-pagination` | Previous/next and numbered pagination |
+| `govuk-service-navigation` | Service-level navigation bar |
+| `govuk-text-input` | Labelled text input with hint and error |
+| `govuk-components-showcase` | Reference page listing every component |
+| `govuk-styles-showcase` | Reference page for the colour/type styles |
 
 **Style Book** — `GOV UK` — sets the GOV.UK colour palette, typography (Arial), and zero border-radius across the site.
 

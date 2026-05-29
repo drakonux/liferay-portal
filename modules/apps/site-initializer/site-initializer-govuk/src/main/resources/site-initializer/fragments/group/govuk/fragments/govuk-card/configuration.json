@@ -1,0 +1,15 @@
+{
+	"fieldSets": [
+		{
+			"label": "card-options",
+			"fields": [
+				{
+					"defaultValue": "true",
+					"label": "Show description",
+					"name": "showDescription",
+					"type": "checkbox"
+				}
+			]
+		}
+	]
+}

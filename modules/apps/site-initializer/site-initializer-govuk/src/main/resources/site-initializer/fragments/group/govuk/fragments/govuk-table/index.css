@@ -7,9 +7,9 @@
 	-webkit-font-smoothing: antialiased;
 	border-collapse: collapse;
 	border-spacing: 0;
-	color: var(--body-color);
-	font-family: var(--font-family-base);
-	font-size: var(--font-size-base);
+	color: var(--govuk-text-colour);
+	font-family: var(--govuk-font-family);
+	font-size: var(--govuk-font-size-19);
 	line-height: 1.31579;
 	width: 100%;
 }
@@ -24,22 +24,22 @@
 }
 
 .govuk-table__caption--s {
-	font-size: var(--font-size-base);
+	font-size: var(--govuk-font-size-19);
 	line-height: 1.31579;
 }
 
 .govuk-table__caption--m {
-	font-size: var(--font-size-lg);
+	font-size: var(--govuk-font-size-24);
 	line-height: 1.25;
 }
 
 .govuk-table__caption--l {
-	font-size: var(--h2-font-size);
+	font-size: var(--govuk-font-size-36);
 	line-height: 1.11111;
 }
 
 .govuk-table__caption--xl {
-	font-size: var(--h1-font-size);
+	font-size: var(--govuk-font-size-48);
 	line-height: 1.04167;
 }
 
@@ -48,7 +48,7 @@
 
 .govuk-table__header,
 .govuk-table__cell {
-	border-bottom: 1px solid var(--gray-300);
+	border-bottom: 1px solid var(--govuk-border-colour);
 	padding: 10px 20px 10px 0;
 	text-align: left;
 	vertical-align: top;
@@ -68,14 +68,14 @@
 
 .govuk-table--small-text-until-tablet .govuk-table__header,
 .govuk-table--small-text-until-tablet .govuk-table__cell {
-	font-size: var(--font-size-sm);
+	font-size: var(--govuk-font-size-14);
 	line-height: 1.14286;
 }
 
 @media (min-width: 641px) {
 	.govuk-table--small-text-until-tablet .govuk-table__header,
 	.govuk-table--small-text-until-tablet .govuk-table__cell {
-		font-size: var(--font-size-base);
+		font-size: var(--govuk-font-size-19);
 		line-height: 1.31579;
 	}
 }

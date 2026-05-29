@@ -1,11 +1,11 @@
 .govuk-tabs {
-	font-family: var(--font-family-base);
+	font-family: var(--govuk-font-family);
 	margin-bottom: 20px;
 }
 
 .govuk-tabs__title {
-	color: var(--black);
-	font-size: var(--font-size-base);
+	color: var(--govuk-black);
+	font-size: var(--govuk-font-size-19);
 	font-weight: 400;
 	line-height: 1.31579;
 	margin-bottom: 10px;
@@ -15,7 +15,7 @@
    ============================================================================= */
 
 .govuk-tabs__list {
-	border-bottom: 1px solid var(--gray-300);
+	border-bottom: 1px solid var(--govuk-border-colour);
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -31,7 +31,7 @@
    ============================================================================= */
 
 .govuk-tabs__list-item {
-	background-color: var(--gray-100);
+	background-color: var(--govuk-black-tint-95);
 	float: left;
 	margin-bottom: 0;
 	margin-left: 0;
@@ -46,8 +46,8 @@
    ============================================================================= */
 
 .govuk-tabs__list-item--selected {
-	background-color: var(--white);
-	border: 1px solid var(--gray-300);
+	background-color: var(--govuk-white);
+	border: 1px solid var(--govuk-border-colour);
 	border-bottom: 0;
 	margin-bottom: -1px;
 	margin-top: -5px;
@@ -62,7 +62,7 @@
    ============================================================================= */
 
 .govuk-tabs__tab {
-	color: var(--black);
+	color: var(--govuk-black);
 	display: inline-block;
 	text-decoration: none;
 }
@@ -77,15 +77,15 @@
 }
 
 .govuk-tabs__tab:hover {
-	color: var(--brand-color-2);
+	color: var(--govuk-link-hover-colour);
 	text-decoration: underline;
 	text-decoration-thickness: max(3px, .1875rem, .12em);
 }
 
 .govuk-tabs__tab:focus {
-	background-color: var(--brand-color-4);
-	box-shadow: 0 -2px var(--brand-color-4), 0 4px var(--black);
-	color: var(--black);
+	background-color: var(--govuk-yellow);
+	box-shadow: 0 -2px var(--govuk-yellow), 0 4px var(--govuk-black);
+	color: var(--govuk-black);
 	outline: none;
 	text-decoration: none;
 }
@@ -98,8 +98,8 @@
    ============================================================================= */
 
 .govuk-tabs__panel {
-	background-color: var(--white);
-	border: 1px solid var(--gray-300);
+	background-color: var(--govuk-white);
+	border: 1px solid var(--govuk-border-colour);
 	border-top: 0;
 	padding: 30px;
 }
@@ -109,7 +109,7 @@
 }
 
 .govuk-tabs__panel .govuk-heading-l {
-	color: var(--black);
+	color: var(--govuk-black);
 	font-size: 2rem;
 	font-weight: 700;
 	line-height: 1.09375;
@@ -118,8 +118,8 @@
 }
 
 .govuk-tabs__panel .govuk-body {
-	color: var(--black);
-	font-size: var(--font-size-base);
+	color: var(--govuk-black);
+	font-size: var(--govuk-font-size-19);
 	line-height: 1.31579;
 	margin-bottom: 15px;
 }

@@ -1,0 +1,10 @@
+{
+	"cacheable": true,
+	"cssPath": "index.css",
+	"htmlPath": "index.html",
+	"icon": "notice",
+	"jsPath": "index.js",
+	"name": "GOVUK Cookie banner",
+	"thumbnailPath": "thumbnail.png",
+	"type": "component"
+}

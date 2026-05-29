@@ -1,0 +1,605 @@
+{
+    "settings": {
+        "masterPage": {
+            "key": "main"
+        }
+    },
+    "pageElement": {
+        "type": "Root",
+        "pageElements": [
+            {
+                "type": "Section",
+                "definition": {
+                    "name": "Components intro",
+                    "indexed": true,
+                    "fragmentStyle": {
+                        "paddingLeft": "3",
+                        "paddingRight": "3"
+                    }
+                },
+                "pageElements": [
+                    {
+                        "type": "Row",
+                        "definition": {
+                            "gutters": true,
+                            "numberOfColumns": 1
+                        },
+                        "pageElements": [
+                            {
+                                "type": "Column",
+                                "definition": {
+                                    "size": 12
+                                },
+                                "pageElements": [
+                                    {
+                                        "type": "Fragment",
+                                        "definition": {
+                                            "fragment": {
+                                                "key": "govuk-components-showcase"
+                                            },
+                                            "fragmentConfig": {},
+                                            "fragmentFields": [],
+                                            "indexed": true,
+                                            "fragmentStyle": {
+                                                "marginTop": "3"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "Section",
+                "definition": {
+                    "name": "Navigation components",
+                    "indexed": true,
+                    "fragmentStyle": {
+                        "paddingLeft": "3",
+                        "paddingRight": "3"
+                    }
+                },
+                "pageElements": [
+                    {
+                        "type": "Row",
+                        "definition": {
+                            "gutters": true,
+                            "numberOfColumns": 1
+                        },
+                        "pageElements": [
+                            {
+                                "type": "Column",
+                                "definition": {
+                                    "size": 12
+                                },
+                                "pageElements": [
+                                    {
+                                        "type": "Fragment",
+                                        "definition": {
+                                            "fragment": {
+                                                "key": "govuk-breadcrumbs"
+                                            },
+                                            "fragmentConfig": {},
+                                            "fragmentFields": [],
+                                            "indexed": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Row",
+                        "definition": {
+                            "gutters": true,
+                            "numberOfColumns": 1
+                        },
+                        "pageElements": [
+                            {
+                                "type": "Column",
+                                "definition": {
+                                    "size": 12
+                                },
+                                "pageElements": [
+                                    {
+                                        "type": "Fragment",
+                                        "definition": {
+                                            "fragment": {
+                                                "key": "govuk-back-link"
+                                            },
+                                            "fragmentConfig": {},
+                                            "fragmentFields": [],
+                                            "indexed": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Row",
+                        "definition": {
+                            "gutters": true,
+                            "numberOfColumns": 1
+                        },
+                        "pageElements": [
+                            {
+                                "type": "Column",
+                                "definition": {
+                                    "size": 12
+                                },
+                                "pageElements": [
+                                    {
+                                        "type": "Fragment",
+                                        "definition": {
+                                            "fragment": {
+                                                "key": "govuk-pagination"
+                                            },
+                                            "fragmentConfig": {},
+                                            "fragmentFields": [],
+                                            "indexed": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "Section",
+                "definition": {
+                    "name": "Actions and labels",
+                    "indexed": true,
+                    "fragmentStyle": {
+                        "paddingLeft": "3",
+                        "paddingRight": "3"
+                    }
+                },
+                "pageElements": [
+                    {
+                        "type": "Row",
+                        "definition": {
+                            "gutters": true,
+                            "numberOfColumns": 3,
+                            "modulesPerRow": 3
+                        },
+                        "pageElements": [
+                            {
+                                "type": "Column",
+                                "definition": {
+                                    "size": 4
+                                },
+                                "pageElements": [
+                                    {
+                                        "type": "Fragment",
+                                        "definition": {
+                                            "fragment": {
+                                                "key": "govuk-button"
+                                            },
+                                            "fragmentConfig": {
+                                                "style": "primary"
+                                            },
+                                            "fragmentFields": [],
+                                            "indexed": true
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Column",
+                                "definition": {
+                                    "size": 4
+                                },
+                                "pageElements": [
+                                    {
+                                        "type": "Fragment",
+                                        "definition": {
+                                            "fragment": {
+                                                "key": "govuk-button"
+                                            },
+                                            "fragmentConfig": {
+                                                "style": "secondary"
+                                            },
+                                            "fragmentFields": [],
+                                            "indexed": true
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Column",
+                                "definition": {
+                                    "size": 4
+                                },
+                                "pageElements": [
+                                    {
+                                        "type": "Fragment",
+                                        "definition": {
+                                            "fragment": {
+                                                "key": "govuk-button"
+                                            },
+                                            "fragmentConfig": {
+                                                "style": "warning"
+                                            },
+                                            "fragmentFields": [],
+                                            "indexed": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Row",
+                        "definition": {
+                            "gutters": true,
+                            "numberOfColumns": 1
+                        },
+                        "pageElements": [
+                            {
+                                "type": "Column",
+                                "definition": {
+                                    "size": 12
+                                },
+                                "pageElements": [
+                                    {
+                                        "type": "Fragment",
+                                        "definition": {
+                                            "fragment": {
+                                                "key": "govuk-tag"
+                                            },
+                                            "fragmentConfig": {},
+                                            "fragmentFields": [],
+                                            "indexed": true,
+                                            "fragmentStyle": {
+                                                "marginTop": "3"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "Section",
+                "definition": {
+                    "name": "Content components",
+                    "indexed": true,
+                    "fragmentStyle": {
+                        "paddingLeft": "3",
+                        "paddingRight": "3"
+                    }
+                },
+                "pageElements": [
+                    {
+                        "type": "Row",
+                        "definition": {
+                            "gutters": true,
+                            "numberOfColumns": 1
+                        },
+                        "pageElements": [
+                            {
+                                "type": "Column",
+                                "definition": {
+                                    "size": 12
+                                },
+                                "pageElements": [
+                                    {
+                                        "type": "Fragment",
+                                        "definition": {
+                                            "fragment": {
+                                                "key": "govuk-inset-text"
+                                            },
+                                            "fragmentConfig": {},
+                                            "fragmentFields": [],
+                                            "indexed": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Row",
+                        "definition": {
+                            "gutters": true,
+                            "numberOfColumns": 1
+                        },
+                        "pageElements": [
+                            {
+                                "type": "Column",
+                                "definition": {
+                                    "size": 12
+                                },
+                                "pageElements": [
+                                    {
+                                        "type": "Fragment",
+                                        "definition": {
+                                            "fragment": {
+                                                "key": "govuk-warning-text"
+                                            },
+                                            "fragmentConfig": {},
+                                            "fragmentFields": [],
+                                            "indexed": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Row",
+                        "definition": {
+                            "gutters": true,
+                            "numberOfColumns": 1
+                        },
+                        "pageElements": [
+                            {
+                                "type": "Column",
+                                "definition": {
+                                    "size": 12
+                                },
+                                "pageElements": [
+                                    {
+                                        "type": "Fragment",
+                                        "definition": {
+                                            "fragment": {
+                                                "key": "govuk-notification-banner"
+                                            },
+                                            "fragmentConfig": {},
+                                            "fragmentFields": [],
+                                            "indexed": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Row",
+                        "definition": {
+                            "gutters": true,
+                            "numberOfColumns": 1
+                        },
+                        "pageElements": [
+                            {
+                                "type": "Column",
+                                "definition": {
+                                    "size": 12
+                                },
+                                "pageElements": [
+                                    {
+                                        "type": "Fragment",
+                                        "definition": {
+                                            "fragment": {
+                                                "key": "govuk-details"
+                                            },
+                                            "fragmentConfig": {},
+                                            "fragmentFields": [],
+                                            "indexed": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Row",
+                        "definition": {
+                            "gutters": true,
+                            "numberOfColumns": 1
+                        },
+                        "pageElements": [
+                            {
+                                "type": "Column",
+                                "definition": {
+                                    "size": 12
+                                },
+                                "pageElements": [
+                                    {
+                                        "type": "Fragment",
+                                        "definition": {
+                                            "fragment": {
+                                                "key": "govuk-accordion"
+                                            },
+                                            "fragmentConfig": {},
+                                            "fragmentFields": [],
+                                            "indexed": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Row",
+                        "definition": {
+                            "gutters": true,
+                            "numberOfColumns": 1
+                        },
+                        "pageElements": [
+                            {
+                                "type": "Column",
+                                "definition": {
+                                    "size": 12
+                                },
+                                "pageElements": [
+                                    {
+                                        "type": "Fragment",
+                                        "definition": {
+                                            "fragment": {
+                                                "key": "govuk-tabs"
+                                            },
+                                            "fragmentConfig": {},
+                                            "fragmentFields": [],
+                                            "indexed": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "Section",
+                "definition": {
+                    "name": "Data components",
+                    "indexed": true,
+                    "fragmentStyle": {
+                        "paddingLeft": "3",
+                        "paddingRight": "3"
+                    }
+                },
+                "pageElements": [
+                    {
+                        "type": "Row",
+                        "definition": {
+                            "gutters": true,
+                            "numberOfColumns": 1
+                        },
+                        "pageElements": [
+                            {
+                                "type": "Column",
+                                "definition": {
+                                    "size": 12
+                                },
+                                "pageElements": [
+                                    {
+                                        "type": "Fragment",
+                                        "definition": {
+                                            "fragment": {
+                                                "key": "govuk-table"
+                                            },
+                                            "fragmentConfig": {},
+                                            "fragmentFields": [],
+                                            "indexed": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Row",
+                        "definition": {
+                            "gutters": true,
+                            "numberOfColumns": 1
+                        },
+                        "pageElements": [
+                            {
+                                "type": "Column",
+                                "definition": {
+                                    "size": 12
+                                },
+                                "pageElements": [
+                                    {
+                                        "type": "Fragment",
+                                        "definition": {
+                                            "fragment": {
+                                                "key": "govuk-summary-list"
+                                            },
+                                            "fragmentConfig": {},
+                                            "fragmentFields": [],
+                                            "indexed": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "Section",
+                "definition": {
+                    "name": "Forms",
+                    "indexed": true,
+                    "fragmentStyle": {
+                        "paddingLeft": "3",
+                        "paddingRight": "3"
+                    }
+                },
+                "pageElements": [
+                    {
+                        "type": "Row",
+                        "definition": {
+                            "gutters": true,
+                            "numberOfColumns": 1
+                        },
+                        "pageElements": [
+                            {
+                                "type": "Column",
+                                "definition": {
+                                    "size": 12
+                                },
+                                "pageElements": [
+                                    {
+                                        "type": "Fragment",
+                                        "definition": {
+                                            "fragment": {
+                                                "key": "govuk-text-input"
+                                            },
+                                            "fragmentConfig": {
+                                                "showHint": true,
+                                                "width": "govuk-input--width-20"
+                                            },
+                                            "fragmentFields": [],
+                                            "indexed": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "Section",
+                "definition": {
+                    "name": "Confirmation",
+                    "indexed": true,
+                    "fragmentStyle": {
+                        "paddingLeft": "3",
+                        "paddingRight": "3"
+                    }
+                },
+                "pageElements": [
+                    {
+                        "type": "Row",
+                        "definition": {
+                            "gutters": true,
+                            "numberOfColumns": 1
+                        },
+                        "pageElements": [
+                            {
+                                "type": "Column",
+                                "definition": {
+                                    "size": 12
+                                },
+                                "pageElements": [
+                                    {
+                                        "type": "Fragment",
+                                        "definition": {
+                                            "fragment": {
+                                                "key": "govuk-panel"
+                                            },
+                                            "fragmentConfig": {},
+                                            "fragmentFields": [],
+                                            "indexed": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

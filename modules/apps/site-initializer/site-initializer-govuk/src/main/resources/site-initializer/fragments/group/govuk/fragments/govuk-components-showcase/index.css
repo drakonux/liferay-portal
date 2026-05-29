@@ -1,0 +1,26 @@
+.govuk-components-intro {
+	border-bottom: 1px solid var(--govuk-border-colour);
+	font-family: var(--govuk-font-family);
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+}
+
+.govuk-components-intro__caption {
+	color: var(--govuk-secondary-text-colour);
+	display: block;
+	font-size: var(--govuk-font-size-24);
+	margin-bottom: 5px;
+}
+
+.govuk-components-intro__title {
+	font-size: var(--govuk-font-size-48);
+	font-weight: 700;
+	line-height: 1.04;
+	margin: 0 0 20px;
+}
+
+.govuk-components-intro__lead {
+	font-size: var(--govuk-font-size-24);
+	margin: 0;
+	max-width: 38em;
+}

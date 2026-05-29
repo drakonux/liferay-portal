@@ -1,10 +1,10 @@
 .govuk-tag {
 	-webkit-font-smoothing: antialiased;
-	background-color: var(--brand-color-1) !important;
-	color: var(--white) !important;
+	background-color: var(--govuk-blue) !important;
+	color: var(--govuk-white) !important;
 	display: inline-block;
-	font-family: var(--font-family-base);
-	font-size: var(--font-size-base);
+	font-family: var(--govuk-font-family);
+	font-size: var(--govuk-font-size-19);
 	font-weight: 700;
 	letter-spacing: 1px;
 	line-height: 1.25;
@@ -13,13 +13,13 @@
 	text-transform: uppercase;
 }
 
-.govuk-tag--grey { background-color: #505a5f !important; color: #fff !important; }
-.govuk-tag--green { background-color: #00703c !important; color: #fff !important; }
-.govuk-tag--turquoise { background-color: #10827f !important; color: #fff !important; }
-.govuk-tag--blue { background-color: #1d70b8 !important; color: #fff !important; }
-.govuk-tag--light-blue { background-color: #5694ca !important; color: #fff !important; }
-.govuk-tag--purple { background-color: #4c2c92 !important; color: #fff !important; }
-.govuk-tag--pink { background-color: #d53880 !important; color: #fff !important; }
-.govuk-tag--red { background-color: #d4351c !important; color: #fff !important; }
-.govuk-tag--orange { background-color: #f47738 !important; color: #fff !important; }
-.govuk-tag--yellow { background-color: #ffdd00 !important; color: #0b0c0c !important; }
+.govuk-tag--grey { background-color: var(--govuk-secondary-text-colour) !important; color: var(--govuk-white) !important; }
+.govuk-tag--green { background-color: var(--govuk-green) !important; color: var(--govuk-white) !important; }
+.govuk-tag--turquoise { background-color: var(--govuk-teal) !important; color: var(--govuk-white) !important; }
+.govuk-tag--blue { background-color: var(--govuk-blue) !important; color: var(--govuk-white) !important; }
+.govuk-tag--light-blue { background-color: var(--govuk-blue-tint-25) !important; color: var(--govuk-white) !important; }
+.govuk-tag--purple { background-color: var(--govuk-purple) !important; color: var(--govuk-white) !important; }
+.govuk-tag--pink { background-color: var(--govuk-magenta) !important; color: var(--govuk-white) !important; }
+.govuk-tag--red { background-color: var(--govuk-red) !important; color: var(--govuk-white) !important; }
+.govuk-tag--orange { background-color: var(--govuk-orange) !important; color: var(--govuk-white) !important; }
+.govuk-tag--yellow { background-color: var(--govuk-yellow) !important; color: var(--govuk-black) !important; }

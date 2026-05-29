@@ -1,39 +1,39 @@
 .govuk-notification-banner {
 	-webkit-font-smoothing: antialiased;
-	border: 5px solid var(--brand-color-1);
-	font-family: var(--font-family-base);
+	border: 5px solid var(--govuk-blue);
+	font-family: var(--govuk-font-family);
 	margin-bottom: 30px;
 }
 
 .govuk-notification-banner__header {
-	background-color: var(--brand-color-1);
+	background-color: var(--govuk-blue);
 	border-bottom: 1px solid transparent;
 	padding: 12px 15px 10px;
 }
 
 .govuk-notification-banner__title {
-	color: var(--white);
-	font-size: var(--font-size-base);
+	color: var(--govuk-white);
+	font-size: var(--govuk-font-size-19);
 	font-weight: 700;
 	line-height: 1.31579;
 	margin: 0;
 }
 
 .govuk-notification-banner__content {
-	background-color: var(--white);
-	color: var(--black);
+	background-color: var(--govuk-white);
+	color: var(--govuk-black);
 	padding: 20px 15px;
 }
 
 .govuk-notification-banner__heading {
-	font-size: var(--font-size-base);
+	font-size: var(--govuk-font-size-19);
 	font-weight: 700;
 	line-height: 1.31579;
 	margin: 0 0 10px;
 }
 
 .govuk-notification-banner__content p {
-	font-size: var(--font-size-base);
+	font-size: var(--govuk-font-size-19);
 	line-height: 1.31579;
 	margin: 0 0 15px;
 }
@@ -43,27 +43,27 @@
 }
 
 .govuk-notification-banner__link {
-	color: var(--brand-color-1);
+	color: var(--govuk-blue);
 	text-decoration: underline;
 }
 
 .govuk-notification-banner__link:hover {
-	color: var(--brand-color-2);
+	color: var(--govuk-link-hover-colour);
 	text-decoration-thickness: 3px;
 }
 
 .govuk-notification-banner__link:focus {
-	background-color: var(--brand-color-4);
-	color: var(--black);
-	outline: 3px solid var(--brand-color-4);
+	background-color: var(--govuk-yellow);
+	color: var(--govuk-black);
+	outline: 3px solid var(--govuk-yellow);
 	outline-offset: 0;
 	text-decoration: none;
 }
 
 .govuk-notification-banner--success {
-	border-color: var(--success);
+	border-color: var(--govuk-green);
 }
 
 .govuk-notification-banner--success .govuk-notification-banner__header {
-	background-color: var(--success);
+	background-color: var(--govuk-green);
 }

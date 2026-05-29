@@ -1,0 +1,162 @@
+{
+	"blackColor": {
+		"cssVariableMapping": "black",
+		"value": "#0b0c0c"
+	},
+	"bodyBgColor": {
+		"cssVariableMapping": "body-bg",
+		"value": "#ffffff"
+	},
+	"bodyColor": {
+		"cssVariableMapping": "body-color",
+		"value": "#0b0c0c"
+	},
+	"borderRadius": {
+		"cssVariableMapping": "border-radius",
+		"value": "0"
+	},
+	"borderRadiusLg": {
+		"cssVariableMapping": "border-radius-lg",
+		"value": "0"
+	},
+	"borderRadiusSm": {
+		"cssVariableMapping": "border-radius-sm",
+		"value": "0"
+	},
+	"boxShadow": {
+		"cssVariableMapping": "box-shadow",
+		"value": "none"
+	},
+	"boxShadowLg": {
+		"cssVariableMapping": "box-shadow-lg",
+		"value": "none"
+	},
+	"boxShadowSm": {
+		"cssVariableMapping": "box-shadow-sm",
+		"value": "none"
+	},
+	"brandColor1": {
+		"cssVariableMapping": "brand-color-1",
+		"value": "#1d70b8"
+	},
+	"brandColor2": {
+		"cssVariableMapping": "brand-color-2",
+		"value": "#003078"
+	},
+	"brandColor3": {
+		"cssVariableMapping": "brand-color-3",
+		"value": "#00703c"
+	},
+	"brandColor4": {
+		"cssVariableMapping": "brand-color-4",
+		"value": "#ffdd00"
+	},
+	"btnLinkColor": {
+		"cssVariableMapping": "btn-link-color",
+		"value": "#1d70b8"
+	},
+	"btnLinkHoverColor": {
+		"cssVariableMapping": "btn-link-hover-color",
+		"value": "#003078"
+	},
+	"btnPrimaryBackgroundColor": {
+		"cssVariableMapping": "btn-primary-background-color",
+		"value": "#00703c"
+	},
+	"btnPrimaryBorderColor": {
+		"cssVariableMapping": "btn-primary-border-color",
+		"value": "transparent"
+	},
+	"btnPrimaryColor": {
+		"cssVariableMapping": "btn-primary-color",
+		"value": "#ffffff"
+	},
+	"btnPrimaryHoverBackgroundColor": {
+		"cssVariableMapping": "btn-primary-hover-background-color",
+		"value": "#005a30"
+	},
+	"btnPrimaryHoverColor": {
+		"cssVariableMapping": "btn-primary-hover-color",
+		"value": "#ffffff"
+	},
+	"containerMaxXl": {
+		"cssVariableMapping": "container-max-xl",
+		"value": "1020px"
+	},
+	"dangerColor": {
+		"cssVariableMapping": "danger",
+		"value": "#ca3535"
+	},
+	"fontFamilyBase": {
+		"cssVariableMapping": "font-family-base",
+		"value": "arial, sans-serif"
+	},
+	"fontFamilySansSerif": {
+		"cssVariableMapping": "font-family-sans-serif",
+		"value": "arial, sans-serif"
+	},
+	"fontSizeBase": {
+		"cssVariableMapping": "font-size-base",
+		"value": "1.1875rem"
+	},
+	"fontSizeLg": {
+		"cssVariableMapping": "font-size-lg",
+		"value": "1.5rem"
+	},
+	"fontSizeSm": {
+		"cssVariableMapping": "font-size-sm",
+		"value": "0.875rem"
+	},
+	"gray100Color": {
+		"cssVariableMapping": "gray-100",
+		"value": "#f3f2f1"
+	},
+	"gray300Color": {
+		"cssVariableMapping": "gray-300",
+		"value": "#b1b4b6"
+	},
+	"gray600Color": {
+		"cssVariableMapping": "gray-600",
+		"value": "#505a5f"
+	},
+	"gray900Color": {
+		"cssVariableMapping": "gray-900",
+		"value": "#0b0c0c"
+	},
+	"h1FontSize": {
+		"cssVariableMapping": "h1-font-size",
+		"value": "3rem"
+	},
+	"h2FontSize": {
+		"cssVariableMapping": "h2-font-size",
+		"value": "2.25rem"
+	},
+	"h3FontSize": {
+		"cssVariableMapping": "h3-font-size",
+		"value": "1.5rem"
+	},
+	"lightColor": {
+		"cssVariableMapping": "light",
+		"value": "#f3f2f1"
+	},
+	"primaryColor": {
+		"cssVariableMapping": "primary",
+		"value": "#1d70b8"
+	},
+	"secondaryColor": {
+		"cssVariableMapping": "secondary",
+		"value": "#f3f2f1"
+	},
+	"successColor": {
+		"cssVariableMapping": "success",
+		"value": "#00703c"
+	},
+	"warningColor": {
+		"cssVariableMapping": "warning",
+		"value": "#f47738"
+	},
+	"whiteColor": {
+		"cssVariableMapping": "white",
+		"value": "#ffffff"
+	}
+}

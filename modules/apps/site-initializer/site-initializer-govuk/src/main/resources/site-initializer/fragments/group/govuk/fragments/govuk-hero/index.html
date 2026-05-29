@@ -1,0 +1,23 @@
+<section class="govuk-hero">
+	<div class="govuk-hero__container">
+		<h1 class="govuk-hero__title" data-lfr-editable-id="hero-title" data-lfr-editable-type="text">
+			Government services, all in one place
+		</h1>
+
+		[#if configuration.showLead]
+			<p class="govuk-hero__lead" data-lfr-editable-id="hero-lead" data-lfr-editable-type="rich-text">
+				Find government services and information for citizens and businesses,
+				built with the GOV.UK Design System.
+			</p>
+		[/#if]
+
+		[#if configuration.showCta]
+			<a class="govuk-button govuk-button--inverse govuk-button--start govuk-hero__cta" href="#" data-lfr-editable-id="hero-cta" data-lfr-editable-type="link">
+				Start now
+				<svg class="govuk-button__start-icon" xmlns="http://www.w3.org/2000/svg" width="17.5" height="19" viewBox="0 0 33 40" aria-hidden="true" focusable="false">
+					<path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z"/>
+				</svg>
+			</a>
+		[/#if]
+	</div>
+</section>

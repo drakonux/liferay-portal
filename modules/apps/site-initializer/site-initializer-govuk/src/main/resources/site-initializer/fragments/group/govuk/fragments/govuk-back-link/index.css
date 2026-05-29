@@ -1,8 +1,8 @@
 .govuk-back-link {
 	-webkit-font-smoothing: antialiased;
-	color: var(--black);
+	color: var(--govuk-black);
 	display: inline-block;
-	font-family: var(--font-family-base);
+	font-family: var(--govuk-font-family);
 	font-size: 1rem;
 	line-height: 1.25;
 	margin-bottom: 20px;
@@ -14,7 +14,7 @@
 }
 
 .govuk-back-link::before {
-	border-color: var(--gray-600);
+	border-color: var(--govuk-secondary-text-colour);
 	border-style: solid;
 	border-width: 1px 1px 0 0;
 	bottom: 0;
@@ -32,22 +32,22 @@
 
 .govuk-back-link:link,
 .govuk-back-link:visited {
-	color: var(--black);
+	color: var(--govuk-black);
 }
 
 .govuk-back-link:hover {
-	color: rgba(11, 12, 12, 0.99);
+	color: var(--govuk-text-colour);
 	text-decoration-thickness: max(3px, .1875rem, .12em);
 }
 
 .govuk-back-link:focus {
-	background-color: var(--brand-color-4);
-	box-shadow: 0 -2px var(--brand-color-4), 0 4px var(--black);
-	color: var(--black);
+	background-color: var(--govuk-yellow);
+	box-shadow: 0 -2px var(--govuk-yellow), 0 4px var(--govuk-black);
+	color: var(--govuk-black);
 	outline: none;
 	text-decoration: none;
 }
 
 .govuk-back-link:focus::before {
-	border-color: var(--black);
+	border-color: var(--govuk-black);
 }

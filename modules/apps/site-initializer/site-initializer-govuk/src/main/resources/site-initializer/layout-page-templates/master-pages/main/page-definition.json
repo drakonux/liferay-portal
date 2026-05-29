@@ -1,0 +1,47 @@
+{
+    "pageElement": {
+        "type": "Root",
+        "pageElements": [
+            {
+                "type": "Fragment",
+                "definition": {
+                    "fragment": {"key": "govuk-header"},
+                    "fragmentConfig": {"homeHref": "/", "showServiceName": true},
+                    "fragmentFields": [],
+                    "indexed": false
+                }
+            },
+            {
+                "type": "Fragment",
+                "definition": {
+                    "fragment": {"key": "govuk-service-navigation"},
+                    "fragmentConfig": {},
+                    "fragmentFields": [],
+                    "indexed": false
+                }
+            },
+            {
+                "type": "Fragment",
+                "definition": {
+                    "fragment": {"key": "govuk-phase-banner"},
+                    "fragmentConfig": {"feedbackHref": "#", "phase": "beta"},
+                    "fragmentFields": [],
+                    "indexed": false
+                }
+            },
+            {
+                "type": "DropZone",
+                "definition": {"fragmentSettings": {"unallowedFragments": []}}
+            },
+            {
+                "type": "Fragment",
+                "definition": {
+                    "fragment": {"key": "govuk-footer"},
+                    "fragmentConfig": {"showLinks": true},
+                    "fragmentFields": [],
+                    "indexed": false
+                }
+            }
+        ]
+    }
+}

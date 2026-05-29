@@ -1,26 +1,26 @@
 .govuk-phase-banner {
 	-webkit-font-smoothing: antialiased;
-	border-bottom: 1px solid var(--gray-300);
-	font-family: var(--font-family-base);
+	border-bottom: 1px solid var(--govuk-border-colour);
+	font-family: var(--govuk-font-family);
 	padding: 8px 0;
 }
 
 .govuk-phase-banner__content {
 	align-items: center;
-	color: var(--black);
+	color: var(--govuk-black);
 	display: flex;
-	font-size: var(--font-size-sm);
+	font-size: var(--govuk-font-size-14);
 	line-height: 1.42857;
 	margin: 0 auto;
-	max-width: var(--container-max-xl);
+	max-width: var(--govuk-page-width);
 	padding: 0 15px;
 }
 
 .govuk-phase-banner__content__tag {
-	background-color: var(--brand-color-1);
-	color: var(--white);
+	background-color: var(--govuk-blue);
+	color: var(--govuk-white);
 	display: inline-block;
-	font-size: var(--font-size-sm);
+	font-size: var(--govuk-font-size-14);
 	font-weight: 700;
 	letter-spacing: 1px;
 	line-height: 1.25;
@@ -31,23 +31,23 @@
 }
 
 .govuk-phase-banner__text {
-	color: var(--black);
+	color: var(--govuk-black);
 }
 
 .govuk-phase-banner__text a {
-	color: var(--brand-color-1);
+	color: var(--govuk-blue);
 	text-decoration: underline;
 }
 
 .govuk-phase-banner__text a:hover {
-	color: var(--brand-color-2);
+	color: var(--govuk-link-hover-colour);
 	text-decoration-thickness: 3px;
 }
 
 .govuk-phase-banner__text a:focus {
-	background-color: var(--brand-color-4);
-	color: var(--black);
-	outline: 3px solid var(--brand-color-4);
+	background-color: var(--govuk-yellow);
+	color: var(--govuk-black);
+	outline: 3px solid var(--govuk-yellow);
 	outline-offset: 0;
 	text-decoration: none;
 }

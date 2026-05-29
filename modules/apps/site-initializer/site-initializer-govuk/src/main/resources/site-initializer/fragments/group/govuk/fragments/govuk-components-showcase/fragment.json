@@ -1,0 +1,10 @@
+{
+	"cacheable": true,
+	"cssPath": "index.css",
+	"htmlPath": "index.html",
+	"icon": "grid",
+	"jsPath": "index.js",
+	"name": "GOVUK Components Showcase",
+	"thumbnailPath": "thumbnail.png",
+	"type": "component"
+}

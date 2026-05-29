@@ -1,0 +1,10 @@
+{
+	"cacheable": true,
+	"cssPath": "index.css",
+	"htmlPath": "index.html",
+	"icon": "page",
+	"jsPath": "index.js",
+	"name": "GOVUK Pagination",
+	"thumbnailPath": "thumbnail.png",
+	"type": "component"
+}

@@ -1,0 +1,30 @@
+{
+	"fieldSets": [
+		{
+			"label": "input-options",
+			"fields": [
+				{
+					"defaultValue": "true",
+					"label": "Show hint",
+					"name": "showHint",
+					"type": "checkbox"
+				},
+				{
+					"dataType": "string",
+					"defaultValue": "govuk-input--width-20",
+					"label": "Width",
+					"name": "width",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{"label": "Full width", "value": ""},
+							{"label": "20 characters", "value": "govuk-input--width-20"},
+							{"label": "10 characters", "value": "govuk-input--width-10"},
+							{"label": "5 characters", "value": "govuk-input--width-5"}
+						]
+					}
+				}
+			]
+		}
+	]
+}

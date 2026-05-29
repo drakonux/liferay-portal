@@ -1,8 +1,8 @@
 .govuk-details {
-	color: var(--black);
+	color: var(--govuk-black);
 	display: block;
-	font-family: var(--font-family-base);
-	font-size: var(--font-size-base);
+	font-family: var(--govuk-font-family);
+	font-size: var(--govuk-font-size-19);
 	line-height: 1.31579;
 	margin-bottom: 20px;
 }
@@ -11,7 +11,7 @@
    ============================================================================= */
 
 .govuk-details__summary {
-	color: var(--brand-color-1);
+	color: var(--govuk-blue);
 	cursor: pointer;
 	display: block;
 	padding-left: 25px;
@@ -42,7 +42,7 @@
    ============================================================================= */
 
 .govuk-details__summary:hover {
-	color: var(--brand-color-2);
+	color: var(--govuk-link-hover-colour);
 }
 
 .govuk-details__summary:hover .govuk-details__summary-text {
@@ -53,9 +53,9 @@
    ============================================================================= */
 
 .govuk-details__summary:focus {
-	background-color: var(--brand-color-4);
-	box-shadow: 0 -2px var(--brand-color-4), 0 4px var(--black);
-	color: var(--black);
+	background-color: var(--govuk-yellow);
+	box-shadow: 0 -2px var(--govuk-yellow), 0 4px var(--govuk-black);
+	color: var(--govuk-black);
 	outline: none;
 }
 
@@ -95,12 +95,12 @@
 }
 
 .govuk-details__text {
-	border-left: 5px solid var(--gray-300);
+	border-left: 5px solid var(--govuk-border-colour);
 	padding: 15px;
 }
 
 .govuk-details__text p {
-	font-size: var(--font-size-base);
+	font-size: var(--govuk-font-size-19);
 	line-height: 1.31579;
 	margin: 0 0 15px;
 }

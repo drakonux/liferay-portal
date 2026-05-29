@@ -1,0 +1,11 @@
+{
+	"cacheable": true,
+	"configurationPath": "configuration.json",
+	"cssPath": "index.css",
+	"htmlPath": "index.html",
+	"icon": "card-template",
+	"jsPath": "index.js",
+	"name": "GOVUK Hero",
+	"thumbnailPath": "thumbnail.png",
+	"type": "component"
+}

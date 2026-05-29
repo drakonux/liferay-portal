@@ -1,0 +1,21 @@
+{
+	"fieldSets": [
+		{
+			"label": "hero-options",
+			"fields": [
+				{
+					"defaultValue": "true",
+					"label": "Show lead paragraph",
+					"name": "showLead",
+					"type": "checkbox"
+				},
+				{
+					"defaultValue": "true",
+					"label": "Show call to action",
+					"name": "showCta",
+					"type": "checkbox"
+				}
+			]
+		}
+	]
+}

@@ -1,6 +1,6 @@
 .govuk-accordion {
-	border-bottom: 1px solid var(--gray-300);
-	font-family: var(--font-family-base);
+	border-bottom: 1px solid var(--govuk-border-colour);
+	font-family: var(--govuk-font-family);
 }
 
 /* Show all controls
@@ -16,10 +16,10 @@
 	align-items: center;
 	background: none;
 	border: none;
-	color: var(--brand-color-1);
+	color: var(--govuk-blue);
 	cursor: pointer;
 	display: inline-flex;
-	font-family: var(--font-family-base);
+	font-family: var(--govuk-font-family);
 	font-size: 1rem;
 	font-weight: 400;
 	gap: 8px;
@@ -28,13 +28,13 @@
 }
 
 .govuk-accordion__show-all:hover {
-	color: var(--brand-color-2);
+	color: var(--govuk-link-hover-colour);
 }
 
 .govuk-accordion__show-all:focus {
-	background-color: var(--brand-color-4);
-	box-shadow: 0 -2px var(--brand-color-4), 0 4px var(--black);
-	color: var(--black);
+	background-color: var(--govuk-yellow);
+	box-shadow: 0 -2px var(--govuk-yellow), 0 4px var(--govuk-black);
+	color: var(--govuk-black);
 	outline: none;
 	text-decoration: none;
 }
@@ -47,13 +47,13 @@
 }
 
 .govuk-accordion__section-header {
-	border-top: 1px solid var(--gray-300);
+	border-top: 1px solid var(--govuk-border-colour);
 	padding-bottom: 0;
 	padding-top: 0;
 }
 
 .govuk-accordion__section-heading {
-	font-size: var(--font-size-base);
+	font-size: var(--govuk-font-size-19);
 	font-weight: 700;
 	line-height: 1.31579;
 	margin: 0;
@@ -67,12 +67,12 @@
 	align-items: flex-start;
 	background: none;
 	border: none;
-	color: var(--black);
+	color: var(--govuk-black);
 	cursor: pointer;
 	display: flex;
 	flex-direction: column;
-	font-family: var(--font-family-base);
-	font-size: var(--font-size-base);
+	font-family: var(--govuk-font-family);
+	font-size: var(--govuk-font-size-19);
 	font-weight: 700;
 	gap: 4px;
 	line-height: 1.31579;
@@ -85,16 +85,16 @@
 /* Hover: grey background on the entire item, icon filled black */
 
 .govuk-accordion__section-button:hover {
-	background-color: var(--gray-100);
+	background-color: var(--govuk-black-tint-95);
 }
 
 .govuk-accordion__section-button:hover .govuk-accordion__section-toggle-icon {
-	background-color: var(--black);
-	border-color: var(--black);
+	background-color: var(--govuk-black);
+	border-color: var(--govuk-black);
 }
 
 .govuk-accordion__section-button:hover .govuk-accordion__section-toggle-icon::after {
-	border-color: var(--white);
+	border-color: var(--govuk-white);
 }
 
 /* Focus: yellow highlight on text only + strong underline */
@@ -105,19 +105,19 @@
 
 .govuk-accordion__section-button:focus .govuk-accordion__section-heading-text-focus,
 .govuk-accordion__section-button:focus .govuk-accordion__section-toggle-focus {
-	background-color: var(--brand-color-4);
-	box-shadow: 0 -2px var(--brand-color-4), 0 4px var(--black);
-	color: var(--black);
+	background-color: var(--govuk-yellow);
+	box-shadow: 0 -2px var(--govuk-yellow), 0 4px var(--govuk-black);
+	color: var(--govuk-black);
 	text-decoration: none;
 }
 
 .govuk-accordion__section-button:focus .govuk-accordion__section-toggle-icon {
-	background-color: var(--black);
-	border-color: var(--black);
+	background-color: var(--govuk-black);
+	border-color: var(--govuk-black);
 }
 
 .govuk-accordion__section-button:focus .govuk-accordion__section-toggle-icon::after {
-	border-color: var(--white);
+	border-color: var(--govuk-white);
 }
 
 /* Toggle label + icon
@@ -125,7 +125,7 @@
 
 .govuk-accordion__section-toggle {
 	align-items: center;
-	color: var(--brand-color-1);
+	color: var(--govuk-blue);
 	display: inline-flex;
 	font-size: 1rem;
 	font-weight: 400;
@@ -185,8 +185,8 @@
 }
 
 .govuk-accordion__section-content p {
-	color: var(--black);
-	font-size: var(--font-size-base);
+	color: var(--govuk-black);
+	font-size: var(--govuk-font-size-19);
 	line-height: 1.31579;
 	margin-bottom: 15px;
 	margin-top: 0;

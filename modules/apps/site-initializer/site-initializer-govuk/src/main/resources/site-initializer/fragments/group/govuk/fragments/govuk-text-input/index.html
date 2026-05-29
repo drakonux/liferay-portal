@@ -1,0 +1,13 @@
+<div class="govuk-form-group">
+	<label class="govuk-label" for="govuk-input-${fragmentEntryLinkNamespace}">
+		<span data-lfr-editable-id="input-label" data-lfr-editable-type="text">National Insurance number</span>
+	</label>
+
+	[#if configuration.showHint]
+		<div class="govuk-hint" id="govuk-hint-${fragmentEntryLinkNamespace}" data-lfr-editable-id="input-hint" data-lfr-editable-type="text">
+			It's on your National Insurance card, benefit letter, payslip or P60.
+		</div>
+	[/#if]
+
+	<input class="govuk-input ${configuration.width}" id="govuk-input-${fragmentEntryLinkNamespace}" name="govuk-input-${fragmentEntryLinkNamespace}" type="text" [#if configuration.showHint]aria-describedby="govuk-hint-${fragmentEntryLinkNamespace}"[/#if]>
+</div>

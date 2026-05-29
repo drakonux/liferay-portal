@@ -2,8 +2,8 @@
 	-webkit-font-smoothing: antialiased;
 	align-items: center;
 	display: flex;
-	font-family: var(--font-family-base);
-	font-size: var(--font-size-base);
+	font-family: var(--govuk-font-family);
+	font-size: var(--govuk-font-size-19);
 	font-weight: 700;
 	line-height: 1.31579;
 	padding: 10px 0;
@@ -12,14 +12,14 @@
 .govuk-warning-text__icon {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
-	background-color: var(--black);
-	border: 3px solid var(--black);
+	background-color: var(--govuk-black);
+	border: 3px solid var(--govuk-black);
 	border-radius: 50%;
 	box-sizing: border-box;
-	color: var(--white);
+	color: var(--govuk-white);
 	display: inline-block;
 	flex-shrink: 0;
-	font-family: var(--font-family-base);
+	font-family: var(--govuk-font-family);
 	font-size: 1.6rem;
 	font-weight: 700;
 	height: 35px;
@@ -31,7 +31,7 @@
 }
 
 .govuk-warning-text__text {
-	color: var(--black);
+	color: var(--govuk-black);
 	font-weight: 700;
 }
 

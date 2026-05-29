@@ -1,0 +1,42 @@
+.govuk-hero {
+	background-color: var(--govuk-blue);
+	color: var(--govuk-white);
+	padding: 50px 0;
+}
+
+.govuk-hero__container {
+	box-sizing: border-box;
+	margin: 0 auto;
+	max-width: var(--govuk-page-width);
+	padding: 0 15px;
+}
+
+@media (min-width: 641px) {
+	.govuk-hero {
+		padding: 80px 0;
+	}
+
+	.govuk-hero__container {
+		padding: 0 30px;
+	}
+}
+
+.govuk-hero__title {
+	color: var(--govuk-white);
+	font-family: var(--govuk-font-family);
+	font-size: var(--govuk-font-size-48);
+	font-weight: 700;
+	line-height: 1.04;
+	margin: 0 0 20px;
+}
+
+.govuk-hero__lead {
+	font-size: var(--govuk-font-size-24);
+	line-height: 1.31;
+	margin: 0 0 30px;
+	max-width: 30em;
+}
+
+.govuk-hero__cta {
+	margin-top: 10px;
+}

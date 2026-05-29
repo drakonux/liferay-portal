@@ -1,0 +1,60 @@
+.govuk-cookie-banner {
+	background-color: var(--govuk-black-tint-95);
+	border-bottom: 1px solid transparent;
+	font-family: var(--govuk-font-family);
+	padding-top: 20px;
+}
+
+.govuk-cookie-banner__message {
+	box-sizing: border-box;
+	margin: 0 auto;
+	max-width: var(--govuk-page-width);
+	padding: 0 15px 20px;
+}
+
+@media (min-width: 641px) {
+	.govuk-cookie-banner__message {
+		padding: 0 30px 20px;
+	}
+}
+
+.govuk-cookie-banner__heading {
+	font-size: var(--govuk-font-size-24);
+	font-weight: 700;
+	margin: 0 0 10px;
+}
+
+.govuk-cookie-banner__body {
+	font-size: var(--govuk-font-size-19);
+	margin-bottom: 20px;
+	max-width: 38em;
+}
+
+.govuk-cookie-banner__body p {
+	margin: 0 0 15px;
+}
+
+.govuk-cookie-banner__actions {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
+.govuk-cookie-banner__button {
+	margin: 0;
+}
+
+.govuk-cookie-banner__link {
+	color: var(--govuk-blue);
+	text-decoration: underline;
+	text-underline-offset: 0.1em;
+}
+
+.govuk-cookie-banner__link:hover {
+	color: var(--govuk-link-hover-colour);
+}
+
+.govuk-cookie-banner__link:visited {
+	color: var(--govuk-blue);
+}

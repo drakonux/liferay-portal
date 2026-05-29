@@ -1,0 +1,10 @@
+{
+	"cacheable": true,
+	"cssPath": "index.css",
+	"htmlPath": "index.html",
+	"icon": "menu",
+	"jsPath": "index.js",
+	"name": "GOVUK Service navigation",
+	"thumbnailPath": "thumbnail.png",
+	"type": "component"
+}

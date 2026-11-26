@@ -13,7 +13,7 @@ const VisibleRenderer = ({value}: {value: boolean}) => {
 
 	return (
 		<span className="align-items-center d-flex">
-			<ClayLabel displayType="info" inverse>
+			<ClayLabel displayType="info">
 				{Liferay.Language.get('not-visible')}
 			</ClayLabel>
 		</span>

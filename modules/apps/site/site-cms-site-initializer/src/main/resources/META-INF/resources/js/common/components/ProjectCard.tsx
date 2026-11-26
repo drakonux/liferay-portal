@@ -94,7 +94,6 @@ export default function ProjectCard({
 						displayType={
 							STATE_DISPLAY_TYPE[status.key] ?? 'secondary'
 						}
-						inverse
 					>
 						{status.name}
 					</ClayLabel>

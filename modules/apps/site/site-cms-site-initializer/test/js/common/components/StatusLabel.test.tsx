@@ -31,6 +31,9 @@ describe('StatusLabel', () => {
 		expect(labelElement).toBeInTheDocument();
 		expect(labelElement.parentElement).toHaveClass(
 			'label',
+			`label-${displayType}`
+		);
+		expect(labelElement.parentElement).not.toHaveClass(
 			`label-inverse-${displayType}`
 		);
 	});

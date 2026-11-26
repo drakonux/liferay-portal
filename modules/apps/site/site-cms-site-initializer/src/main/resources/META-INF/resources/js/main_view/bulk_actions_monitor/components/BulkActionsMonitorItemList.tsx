@@ -71,7 +71,6 @@ function BulkActionsMonitorItemList({items}: {items: IBulkActionTask[]}) {
 									<Label
 										className="align-self-start mt-1"
 										displayType={displayType}
-										inverse
 									>
 										{label}
 									</Label>

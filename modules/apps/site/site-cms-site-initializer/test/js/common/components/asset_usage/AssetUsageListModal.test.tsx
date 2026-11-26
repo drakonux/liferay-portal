@@ -56,6 +56,16 @@ describe('AssetUsageListModal', () => {
 			)
 		).toBeInTheDocument();
 
+		const deletionTypeLabelElement = screen.getByText('permanent-deletion');
+
+		expect(deletionTypeLabelElement.parentElement).toHaveClass(
+			'label',
+			'label-danger'
+		);
+		expect(deletionTypeLabelElement.parentElement).not.toHaveClass(
+			'label-inverse-danger'
+		);
+
 		expect(handleDeleteFn).not.toHaveBeenCalled();
 		expect(handleCloseModalFn).not.toHaveBeenCalled();
 
@@ -106,6 +116,16 @@ describe('AssetUsageListModal', () => {
 				'this-item-is-being-used-in-other-assets-or-pages.-sending-it-to-the-recycle-will-break-those-references-and-cause-broken-links-or-missing-content.-this-action-cannot-be-undone.-are-you-sure-you-want-to-continue?'
 			)
 		).toBeInTheDocument();
+
+		const deletionTypeLabelElement = screen.getByText('recycle-bin');
+
+		expect(deletionTypeLabelElement.parentElement).toHaveClass(
+			'label',
+			'label-secondary'
+		);
+		expect(deletionTypeLabelElement.parentElement).not.toHaveClass(
+			'label-inverse-secondary'
+		);
 	});
 
 	it('renders the usage modal with a single folder and deletion type is Permanent Deletion', () => {
